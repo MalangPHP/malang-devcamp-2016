@@ -1,0 +1,71 @@
+/*==================================
+->
+
+COLOR SCHEME
+
+Here you can change the colors
+
+<-
+====================================-*/
+
+.date strong, .date li, .bullet-box h3, ul.ticket-list.active li, a:focus, a:hover, 
+.form-control , .btn-naked:hover, .btn-naked:focus, .btn-naked.focus, .btn-naked:active, .btn-naked .active, .open > .dropdown-toggle.btn-naked, 
+.part-t h3, .part-t h4, .atcb-list .atcb-item a, .trigger {
+    color: #6159fd; /* MAIN COLOR */
+}
+
+ .face-hover a i, .panel-event > .panel-heading, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus,
+ .panel-title a.collapsed, .btn-primary, .carousel-part .carousel-control.right, .carousel-part .carousel-control.left  {
+ 	color: #6159fd; /* MAIN COLOR */
+ }
+
+ .form-control::-webkit-input-placeholder  {
+ 	color: #6159fd; /* MAIN COLOR */
+ }
+
+  .form-control:-ms-input-placeholder {
+ 	color: #6159fd; /* MAIN COLOR */
+ }
+
+ .form-control::-moz-placeholder{
+ 	color: #6159fd; /* MAIN COLOR */
+ }
+
+ ul.ticket-list.active li.costs,  select option:active, select option:focus, select option:hover, .part-t, .da-thumbs li .part-block .part-t, .second-bullet:before, .bullet-box li:hover:before, .bullet-box li:hover:after,
+ .social-media li.vimeo, .navbar-eventique .navbar-nav > li > a:hover, .navbar-eventique .navbar-nav > li > a:focus,  .navbar-eventique .navbar-nav > li > a.active ,.navbar-eventique .navbar-nav > li > a:hover, .navbar-eventique .navbar-nav > li > a:focus, .navbar-eventique .navbar-nav > li >  a.active, .navbar-eventique .navbar-nav > li >  a.active:hover, .navbar-eventique .navbar-nav > li >  a.active:focus
+.alert-success, .panel-event > .panel-heading:active, .bullet-box li:hover:after, .color-wrapp:after, .alert-success, .face-hover a i:hover, .carousel-text .item, .time-s > span, .nav-justified > li > a,
+ul.options li.hover, .carousel .btn-primary {
+    background-color: #6159fd; /* MAIN COLOR */
+}
+
+ ul.social-media li:hover, .open > .dropdown-toggle.btn-primary, .btn-primary:hover, .btn-primary:active, .thumbnails-carousel .caption:before, 
+ .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary,  .panel-event > .panel-heading:hover, .panel-title a:hover, 
+ .nav-justified > li > a:hover, .nav-justified > li > a:focus {
+    background-color: #524BDB; /* HOVER COLOR */
+}
+ .nav-justified > li > a, ul.ticket-list.active, .alert-success, .part-block:hover, .face-speak:hover img, .face-hover a i, .panel-event > .panel-heading, .btn-primary , 
+ .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .addtocalendar .atcb-list, .carousel .btn-primary  {
+  border-color:#6159fd; /* border color of the succes box */
+}
+
+.panel-schedule .panel-title a:after, .panel-schedule .panel-title a.collapsed:after {
+	border-right-color: #6159fd; /* Schedule arrow color */
+}
+
+
+.social-media li.facebook,
+.social-media li.pinterest {
+    background-color: #857efc; /* social media color - lightest color */
+}
+.social-media li.instagram,
+.social-media li.youtube,
+.social-media li.facebook, .social-media li.pinterest
+ {
+    background-color: #746dfb; /* social media color - medium color */
+}
+.social-media li.twitter,
+.social-media li.linkedin,
+.social-media li.facebook, .social-media li.pinterest
+ {
+    background-color: #6a63fc; /* social media color - darkest color */
+}

