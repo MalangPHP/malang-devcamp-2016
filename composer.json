@@ -1,0 +1,11 @@
+{
+    "name": "malangphp/malangdevcamp2016",
+    "description": "Official Site of Malang DevCamp 2016",
+    "authors": [
+        {
+            "name": "MalangPHP",
+            "email": "contact@malangphp.org"
+        }
+    ],
+    "require": {}
+}
