@@ -35,44 +35,6 @@
 </head>
 <body>
 
-
-<div id="settings" class="">
-            <div class="colors">
-                <ul>
-                    <li>
-                        <a class="color_green selected" onclick="setActiveStyleSheet('green'); return false;" href="javascript:;"><i></i></a>
-                    </li>
-                    <li>
-                        <a class="color_orange" onclick="setActiveStyleSheet('orange'); return false;" href="javascript:;"><i></i></a>
-                    </li>
-                    <li>
-                        <a class="color_purple " onclick="setActiveStyleSheet('purple'); return false;" href="javascript:;"><i></i></a>
-                    </li>
-            </ul>
-        </div>
-    <a class="settings_link" href="#"><i class="fa fa-paint-brush"></i></a>
-</div>
-<script type="text/javascript">
-    
-        $(document).ready(function() {
-            $('a.settings_link').click(function(event){
-                $(this).parent().toggleClass('open');
-                event.preventDefault();
-            });
-
-                 
-            $('.colors ul li a').click(function(event){
-                $('.colors ul li a').removeClass('selected');
-                $(this).addClass('selected');
-                             
-                event.preventDefault();
-            });
-        });
-
-
-</script>
-
-
 <div id="home">
     <!-- ============================= Carousel Wrapp ================================================== -->
 
