@@ -268,16 +268,16 @@ $('.addtocalendar .btn-primary').on('click touchstart touchend', function(e){
 
 
 function initialize() {
-    var myLating = new google.maps.LatLng(44.398815, 26.143223);
+    var myLating = new google.maps.LatLng(-7.9521422, 112.5432265);
         var mapOptions = {
-            zoom: 15,
+            zoom: 20,
             center: myLating,
-            zoomControl: false,
-            scaleControl: false,
+            //zoomControl: false,
+            //scaleControl: false,
             scrollwheel: false,
-            disableDoubleClickZoom: true
+            //disableDoubleClickZoom: true
         }
-        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
         var marker = new google.maps.Marker({
             position: myLating,
@@ -289,13 +289,13 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 /* Countdown */  
 
-     $('.countdown').countdown('2017/11/11', function(event) { // <<----- Change the date of the event here here
+     $('.countdown').countdown('2016/03/12 08:00:00', function(event) { // <<----- Change the date of the event here here
        var $this = $(this).html(event.strftime(''
-        + '<div class="timer"><ul class="date"><li>%M<li class="resp">M</li><li>Months</li></ul>'
-        + '<ul class="date"><li>%d<li class="resp">D</li><li>Days</li></ul>'
-        + '<ul class="date"><li>%H<li class="resp">H</li><li>Hours</li></ul>'
-        + '<ul class="date"><li>%m<li class="resp">M</li><li>Minutes</li></ul>'
-        + '<ul class="date"><li>%S<li class="resp">S</li><li>Seconds</li></ul></div>'));
+        + '<div class="timer"><ul class="date"><li>%m<li class="resp">B</li><li>Bulan</li></ul>'
+        + '<ul class="date"><li>%d<li class="resp">H</li><li>Hari</li></ul>'
+        + '<ul class="date"><li>%H<li class="resp">J</li><li>Jam</li></ul>'
+        + '<ul class="date"><li>%M<li class="resp">M</li><li>Menit</li></ul>'
+        + '<ul class="date"><li>%S<li class="resp">D</li><li>Detik</li></ul></div>'));
      });
 
 /* Swipe carousels */
@@ -311,15 +311,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
         
 /* Video stop on tabs */
 
-$(".play-video").on("click", function(e) {
-    e.preventDefault();
-    var videourl = $(this).data("video-url");
-    $(this).append('<i class="video-loader fa fa-circle-o-notch fa-spin"></i>')
-    $('.media-video iframe').attr('src', videourl);
-    setTimeout(function() {
-        $('.video-loader').remove();
-    }, 1000);
-});
+//$(".play-video").on("click", function(e) {
+//    e.preventDefault();
+//    var videourl = $(this).data("video-url");
+//    $(this).append('<i class="video-loader fa fa-circle-o-notch fa-spin"></i>')
+//    $('.media-video iframe').attr('src', videourl);
+//    setTimeout(function() {
+//        $('.video-loader').remove();
+//    }, 1000);
+//});
 
 /* Fancy Select */
 

@@ -1351,6 +1351,8 @@ MEDIA QUERY
 @media screen and (max-width: 769px) {
 	.navbar div.navbar-collapse {
 		margin: 0px;
+		z-index: 12032016;
+		position: relative;
 	}
 	.carousel .btn-naked, .carousel .btn-primary {
 		font-size: 1em;
