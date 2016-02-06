@@ -1,1 +1,0 @@
-Malang DevCamp 2016. Coming Soon

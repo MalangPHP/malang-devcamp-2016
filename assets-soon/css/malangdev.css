@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'ProximaNova-Black';
+    src: url('../assets/fonts/ProximaNova-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Bold';
+    src: url('../assets/fonts/ProximaNova-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-BoldIt';
+    src: url('../assets/fonts/ProximaNova-BoldIt.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Extrabold';
+    src: url('../assets/fonts/ProximaNova-Extrabold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Light';
+    src: url('../assets/fonts/ProximaNova-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-LightItalic';
+    src: url('../assets/fonts/ProximaNova-LightItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-RegItalic';
+    src: url('../assets/fonts/ProximaNova-RegItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url('../assets/fonts/ProximaNova-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-RegularItalic';
+    src: url('../assets/fonts/ProximaNova-RegularItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('../assets/fonts/ProximaNova-Semibold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-SemiboldItalic';
+    src: url('../assets/fonts/ProximaNova-SemiboldItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: url(../img/cover.jpg);
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    font-family: ProximaNova-Light;
+}
+
+h3.masthead-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    /*opacity: 0.5;*/
+}
+
+.cover-heading {
+    letter-spacing: 5px;
+    font-family: ProximaNova-Light;
+}
+
+.inner.cover h3 {
+    letter-spacing: 3px;
+    opacity: 0.5;
+    /*font-style: italic;*/
+    font-size: 13px;
+}
+
+.mastfoot {
+    font-size: 11px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
