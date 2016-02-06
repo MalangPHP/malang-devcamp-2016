@@ -1,0 +1,97 @@
+{
+    "title": "Malang DevCamp 2016 - Back to Native",
+    "branding": {
+        "color": {
+            "primary": "#",
+            "secondary": "#",
+            "alt1": "#",
+            "alt2": "#"
+        },
+        "logo": {
+            "square" : {
+                "full_color": "path/to/logo.png",
+                "white": "path/to/logo.png",
+                "black": "path/to/logo.png",
+                "grayscale": "path/to/logo.png",
+                "flat_color_1": "path/to/logo.png",
+                "flat_color_2": "path/to/logo.png",
+            },
+            "inline" : {
+                "full_color": "path/to/logo.png",
+                "white": "path/to/logo.png",
+                "black": "path/to/logo.png",
+                "grayscale": "path/to/logo.png",
+                "flat_color_1": "path/to/logo.png",
+                "flat_color_2": "path/to/logo.png",
+            }
+        }
+    },
+    "desc": "Malang Dev Camp 2016 adalah sebuah acara yang dikemas dalam suasana camp yang berlangsung selama 2 hari 1 malam. Dalam acara ini, para web developer khususnya para developer PHP akan berkumpul untuk mendiskusikan berbagai macam hal seputar web development. Selain itu acara ini juga juga dikemas dengan kegiatan outbound guna meningkatkan solidaritas antar developer.",
+    "time": {
+            "date": "12",
+            "month": "Maret",
+            "year": "2016"
+        },
+    "location": {
+            "city": "Malang",
+            "venue": "PWEC - Petungsewu Wildlife Education Care",
+            "gmaps": "url/to/gmaps"
+        },
+    "hero_slide": [
+        "url/to/image1.png", 
+        "url/to/image2.png", 
+        "url/to/image3.png"
+    ],
+    "speaker": [
+        {
+            "first_name": "John",
+            "last_name": "John",
+            "jobs": "John",
+            "company": "John",
+            "twitter": "",
+            "github": ""
+        },
+        {
+            "first_name": "John",
+            "last_name": "John",
+            "jobs": "John",
+            "company": "John",
+            "twitter": "",
+            "github": ""
+        },
+        {
+            "first_name": "John",
+            "last_name": "John",
+            "jobs": "John",
+            "company": "John",
+            "twitter": "",
+            "github": ""
+        },
+        {
+            "first_name": "John",
+            "last_name": "John",
+            "jobs": "John",
+            "company": "John",
+            "twitter": "",
+            "github": ""
+        }
+    ],
+    "sponsors" : [
+        {
+            "company_name": "Name Here",
+            "company_logo": "url/to/logo.png"
+        },
+        {
+            "company_name": "Name Here",
+            "company_logo": "url/to/logo.png"
+        }
+    ],
+    "contact": {
+        "email": "contact@malangphp.org",
+        "telp": "+6289632393998"
+    },
+    "social_media": {
+        "facebook": "",
+        "twitter": ""
+    }
+}
