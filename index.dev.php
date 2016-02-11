@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/favicon.jpg">
+    <link rel="icon" href="favicon.png">
 
     <title>Malang DevCamp 2016 - Back to Native</title>
 
@@ -138,7 +138,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="#">
-                                <img src="images/logo.png" alt="Eventique" title="Eventique">
+                                <img src="images/line-full-color.png" alt="Eventique" title="Eventique">
                             </a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse" data-scroll-header>
@@ -1682,12 +1682,12 @@
     <script src="js/skrollr.js"></script>
     <script src="js/SmoothScroll.js"></script>
     <script src="js/Owl.Carousel.js"></script>
-    <script src="js/jquery.countdown.js"></script>
     <script src="js/addtocalendar.js"></script>
     <script src="js/jquery-validation.js"></script>
     <script src="js/form-validation.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/fancyselect.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
     <script src="js/_main.js"></script>
 
 </body>
