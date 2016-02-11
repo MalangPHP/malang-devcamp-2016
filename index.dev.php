@@ -1727,15 +1727,19 @@
 
                     </div>
 
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-2 col-sm-6 col-xs-12">
 
                         <!-- ================= FOOTER CONTACT INFO ================= -->
 
-                        <p>Telepon | <a href="tel:+6289632393998">+6289632393998</a></p>
+                        <p>
+                            Telepon | <a href="tel:+6289632393998"><strong>+6289632393998</strong> (Prasetyo)</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+6281372441985"><strong>+6281372441985</strong> (Mifan)</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+6281231549154"><strong>+6281231549154</strong> (Yuri)</a>
+                        </p>
 
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
 
                         <!-- ================= FOOTER SOCIAL MEDIA ================= -->
 
