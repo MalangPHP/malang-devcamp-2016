@@ -409,7 +409,7 @@
 
                                         <div class="left-c">
 
-                                            <a href="https://github.com/ikandars"><i class="fa fa-github"></i></a>
+                                            <a href="https://github.com/ikandars" target="_blank"><i class="fa fa-github"></i></a>
 
                                         </div>
 
@@ -419,7 +419,7 @@
 
                                         <div class="right-c">
 
-                                            <a href="https://twitter.com/ikandars"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://twitter.com/ikandars" target="_blank"><i class="fa fa-twitter"></i></a>
 
                                         </div>
 
@@ -458,7 +458,7 @@
 
                                         <div class="left-c">
 
-                                            <a href="https://github.com/andylibrian"><i class="fa fa-github"></i></a>
+                                            <a href="https://github.com/andylibrian" target="_blank"><i class="fa fa-github"></i></a>
 
                                         </div>
 
@@ -468,7 +468,7 @@
 
                                         <div class="right-c">
 
-                                            <a href="https://twitter.com/andylibrian"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://twitter.com/andylibrian" target="_blank"><i class="fa fa-twitter"></i></a>
 
                                         </div>
 
@@ -511,7 +511,7 @@
 
                                         <div class="left-c">
 
-                                            <a href="https://github.com/maman"><i class="fa fa-github"></i></a>
+                                            <a href="https://github.com/maman" target="_blank"><i class="fa fa-github"></i></a>
 
                                         </div>
 
@@ -521,7 +521,7 @@
 
                                         <div class="right-c">
 
-                                            <a href="https://twitter.com/achmadmahardi"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://twitter.com/achmadmahardi" target="_blank"><i class="fa fa-twitter"></i></a>
 
                                         </div>
 
