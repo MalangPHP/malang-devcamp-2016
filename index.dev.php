@@ -299,7 +299,7 @@
 
                                                 <!-- ================= EVENT ICON DESCRIPTION ================= -->
 
-                                                <h3>4 Pembicara</h3>
+                                                <h3>3 Pembicara</h3>
                                                 <h4>Profesional</h4>
 
                                             </div>
