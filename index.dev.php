@@ -1559,7 +1559,7 @@
 
                         <ul class="ticket-list active">
                             <li class="title">Early Bid</li>
-                            <li class="costs"><em>Rp.</em>180,000</li>
+                            <li class="costs"><em>Rp.</em>180,000 <sup>/ orang</sup></li>
                             <li class="active"><strong>15 pendaftar pertama</strong></li>
                             <li class="active">Kamar Tidur</li>
                             <li class="active">Outbound</li>
@@ -1572,7 +1572,7 @@
 
                         <ul class="ticket-list active">
                             <li class="title">Group</li>
-                            <li class="costs"><em>Rp.</em>200,000 <sup>per orang</sup></li>
+                            <li class="costs"><em>Rp.</em>200,000 <sup>/ orang</sup></li>
                             <li class="active"><strong>Min. 3 orang / group</strong></li>
                             <li class="active">Kamar Tidur</li>
                             <li class="active">Outbound</li>
@@ -1585,7 +1585,7 @@
 
                         <ul class="ticket-list active">
                             <li class="title">Regular Ticket</li>
-                            <li class="costs"><em>Rp.</em>250,000</li>
+                            <li class="costs"><em>Rp.</em>250,000 <sup>/ orang</sup></li>
                             <li class="active">Kamar Tidur</li>
                             <li class="active">Outbound</li>
                             <li class="last">Sertifikat</li>
