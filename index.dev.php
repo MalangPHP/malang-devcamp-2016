@@ -401,7 +401,7 @@
 
                         <!-- ================= SPEAKERS BLOCK ================= -->
 
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
                             <div class="face-speak">
 
@@ -412,7 +412,7 @@
 
                                         <div class="left-c">
 
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://github.com/ikandars"><i class="fa fa-github"></i></a>
 
                                         </div>
 
@@ -422,7 +422,7 @@
 
                                         <div class="right-c">
 
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://twitter.com/ikandars"><i class="fa fa-twitter"></i></a>
 
                                         </div>
 
@@ -432,15 +432,15 @@
 
                                 <!-- ================= SPEAKERS IMAGE ================= -->
 
-                                <img src="images/face-image-1.png" width="320" height="320"  title="Speaker 1" alt="speaker 1" />
+                                <img src="images/speakers/iskandar.jpeg" width="320" height="320"  title="Iskandar Soesman" alt="Iskandar Soesman" />
 
                                 <!-- ================= SPEAKERS NAME ================= -->
 
-                                <h3><strong>Michael</strong>Doe</h3>
+                                <h3><strong>Iskandar</strong>Soesman</h3>
 
                                 <!-- ================= SPEAKERS DESC ================= -->
 
-                                <p>CEO, Company Name</p>
+                                <p>Software Architect, Detik.com</p>
 
                             </div>
 
@@ -450,7 +450,7 @@
 
                              <!-- ================= SPEAKERS BLOCK ================= -->
 
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
                             <div class="face-speak">
 
@@ -461,7 +461,7 @@
 
                                         <div class="left-c">
 
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://github.com/andylibrian"><i class="fa fa-github"></i></a>
 
                                         </div>
 
@@ -471,7 +471,7 @@
 
                                         <div class="right-c">
 
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://twitter.com/andylibrian"><i class="fa fa-twitter"></i></a>
 
                                         </div>
 
@@ -482,15 +482,15 @@
                                 <!-- ================= SPEAKERS IMAGE ================= -->
 
 
-                                <img src="images/face-image-2.png" width="320" height="320"  title="Speaker 2" alt="speaker 2" />
+                                <img src="images/speakers/andy.png" width="320" height="320"  title="Andy Librian" alt="Andy Librian" />
 
                                 <!-- ================= SPEAKERS NAME ================= -->
 
-                                <h3><strong>Jane</strong>Doe</h3>
+                                <h3><strong>Andy</strong>Librian</h3>
 
                                 <!-- ================= SPEAKERS NAME ================= -->
 
-                                <p>Vice President, Company Name</p>
+                                <p>Senior Software Developer, PT Shoop Digital Indonesia</p>
 
                                 <!-- ================= SPEAKERS DESC ================= -->
 
@@ -503,7 +503,7 @@
 
                              <!-- ================= SPEAKERS BLOCK ================= -->
 
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
                             <div class="face-speak">
 
@@ -514,7 +514,7 @@
 
                                         <div class="left-c">
 
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://github.com/maman"><i class="fa fa-github"></i></a>
 
                                         </div>
 
@@ -524,7 +524,7 @@
 
                                         <div class="right-c">
 
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://twitter.com/achmadmahardi"><i class="fa fa-twitter"></i></a>
 
                                         </div>
 
@@ -534,64 +534,15 @@
 
                                 <!-- ================= SPEAKERS IMAGE ================= -->
 
-                                <img src="images/face-image-3.png" width="320" height="320"  title="Speaker 3" alt="speaker 3" />
+                                <img src="images/speakers/maman.png" width="320" height="320"  title="Achmad Mahardi" alt="Achmad Mahardi" />
 
                                 <!-- ================= SPEAKERS NAME ================= -->
 
-                                <h3><strong>Victor</strong>Doe</h3>
+                                <h3><strong>Achmad</strong>Mahardi</h3>
 
                                 <!-- ================= SPEAKERS DESC ================= -->
 
-                                <p>Rector, University Name</p>
-
-                            </div>
-
-                        </div>
-
-                             <!-- ================= END SPEAKERS BLOCK ================= -->
-
-                             <!-- ================= SPEAKERS BLOCK ================= -->
-
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-
-                            <div class="face-speak">
-
-                                <div class="face-hover">
-
-                             <!-- ================= SPEAKERS SOCIAL ================= -->
-                                    <div class="center">
-
-                                        <div class="left-c">
-
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-
-                                        </div>
-
-                                    </div>
-
-                                    <div class="center">
-
-                                        <div class="right-c">
-
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <!-- ================= SPEAKERS IMAGE ================= -->
-
-                                <img src="images/face-image-4.png" width="320" height="320"  title="Speaker 4" alt="speaker 4" />
-
-                                <!-- ================= SPEAKERS NAME ================= -->
-
-                                <h3><strong>Jane</strong>Doe</h3>
-
-                                <!-- ================= SPEAKERS DESC ================= -->
-
-                                <p>Teacher, School Name</p>
+                                <p>Front End Engineer, NoLimit Indonesia</p>
 
                             </div>
 
