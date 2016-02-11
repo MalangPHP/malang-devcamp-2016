@@ -148,21 +148,23 @@
                         </div>
                         <div id="navbar" class="navbar-collapse collapse" data-scroll-header>
                             <ul class="nav navbar-right navbar-nav">
-                                <li><a data-scroll data-options='{ "easing": "linear" }' class="active" href="#home">Beranda</a>
+                                <li>
+                                    <a data-scroll data-options='{ "easing": "linear" }' class="active" href="#home">Beranda</a>
                                 </li>
-                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#about">Tentang</a>
+                                <li>
+                                    <a data-scroll data-options='{ "easing": "linear" }' href="#about">Tentang</a>
                                 </li>
-                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#speakers">Pembicara</a>
+                                <li>
+                                    <a data-scroll data-options='{ "easing": "linear" }' href="#speakers">Pembicara</a>
                                 </li>
-                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#schedule">Jadwal</a>
+                                <li>
+                                    <a data-scroll data-options='{ "easing": "linear" }' href="#schedule">Jadwal</a>
                                 </li>
-                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#faq">FAQ</a>
+                                <li>
+                                    <a data-scroll data-options='{ "easing": "linear" }' href="#faq">FAQ</a>
                                 </li>
-                                <!--<li><a data-scroll data-options='{ "easing": "linear" }' href="#gallery">Gallery</a>-->
-                                </li>
-                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#location">Lokasi</a>
-                                </li>
-                                <li><a data-scroll data-options='{ "easing": "linear" }' href="#register">Daftar</a>
+                                <li>
+                                    <a data-scroll data-options='{ "easing": "linear" }' href="#location">Lokasi</a>
                                 </li>
                             </ul>
                         </div>
@@ -1602,79 +1604,6 @@
         </section>
 
         <!-- ================= END TICKETS ================= -->
-
-        <!-- ================= SUBSCRIPTION FORM ================= -->
-
-        <section class="part register ev wow bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.2s" id="register">
-
-            <div class="container-fluid">
-
-            <h2> Event Map </h2> <!-- = Title just for SEO = -->
-
-                <div id="contact-wrap">
-
-                    <form class="form-inline" method="post" id="updateForm">
-
-                        <div class="row">
-
-                            <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
-
-                                <div class="contact-form">
-                                    <div class="contact-form-in">
-                                        <div class="form-group col-lg-4 col-md-4 col-xs-12 col-sm-6">
-                                            <input type="text" id="form-name" name="name" placeholder="Name" class="form-control">
-                                        </div>
-                                        <div class="form-group col-lg-5 col-md-5 col-xs-12 col-sm-6">
-                                            <input type="text" id="form-email" name="email" placeholder="Email" class="form-control">
-                                        </div>
-                                        <div class="form-group col-lg-3 col-md-3 col-xs-12 col-sm-12">
-                                            <select id="form-option" name="option" class="form-control options"  aria-required="true">
-                                                <!-- ================= Pricing Subscription ================= -->
-                                                <option>Gold</option>
-                                                <option>Silver</option>
-                                                <option>Platinum</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 reg-btn">
-
-                                <div class="send-wrap">
-                                    <input type="submit" value="Register" class="btn btn-primary">
-                                </div>
-                                
-                            </div>
-
-                        </div>
-
-                    </form>
-
-                </div>
-
-                    <div id="success-wrap">
-                        <div class="content-width">
-                            <div class="success">
-                                <p>Thank you, your message has been sent!</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div id="error-wrap">
-                        <div class="content-width">
-                            <div class="success">
-                                <p>Your message could not be sent! Please try again!</p>
-                            </div>
-                        </div>
-                    </div>
-
-            </div>
-
-        </section>
-
-        <!-- ================= END SUBSCRIPTION FORM ================= -->
 
         <!-- ================= FOOTER ================= -->
 
