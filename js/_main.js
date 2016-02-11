@@ -290,8 +290,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 /* Countdown */  
 
      $('.countdown').countdown('2016/03/12 08:00:00', function(event) { // <<----- Change the date of the event here here
-       var $this = $(this).html(event.strftime(''
-        + '<div class="timer"><ul class="date"><li>%m<li class="resp">B</li><li>Bulan</li></ul>'
+        $(this).html(event.strftime('<div class="timer"><ul class="date"><li>%w<li class="resp">M</li><li>Minggu</li></ul>'
         + '<ul class="date"><li>%d<li class="resp">H</li><li>Hari</li></ul>'
         + '<ul class="date"><li>%H<li class="resp">J</li><li>Jam</li></ul>'
         + '<ul class="date"><li>%M<li class="resp">M</li><li>Menit</li></ul>'
