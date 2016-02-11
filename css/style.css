@@ -24,12 +24,88 @@ TABLE OF CONTENTS
 /*=======================
 GENERAL
 =======================*/
+@font-face {
+	font-family: 'ProximaNova-Black';
+	src: url('../assets-soon/fonts/ProximaNova-Black.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('../assets-soon/fonts/ProximaNova-Bold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-BoldIt';
+	src: url('../assets-soon/fonts/ProximaNova-BoldIt.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-Extrabold';
+	src: url('../assets-soon/fonts/ProximaNova-Extrabold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src: url('../assets-soon/fonts/ProximaNova-Light.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-LightItalic';
+	src: url('../assets-soon/fonts/ProximaNova-LightItalic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-RegItalic';
+	src: url('../assets-soon/fonts/ProximaNova-RegItalic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('../assets-soon/fonts/ProximaNova-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-RegularItalic';
+	src: url('../assets-soon/fonts/ProximaNova-RegularItalic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url('../assets-soon/fonts/ProximaNova-Semibold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-SemiboldItalic';
+	src: url('../assets-soon/fonts/ProximaNova-SemiboldItalic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
 
 body {
 	background-color: #ebeef0;
 	margin: 0px;
 	  padding: 0px;
-	  font-family: 'Source Sans Pro', sans-serif;
+      font-family: ProximaNova-Light;
 	  font-size: 14px;
 	  line-height: 1.42857143;
 	  color: #333;

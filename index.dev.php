@@ -12,19 +12,14 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
 
-
     <link href="css/style.css" rel="stylesheet">
     <!--- COLOR SCHEMES -->
     <link rel="stylesheet" type="text/css" href="css/green.css" title="green" media="screen">
-    <link rel="alternate stylesheet" type="text/css" href="css/purple.css" title="purple" media="screen" disabled="">
-    <link rel="alternate stylesheet" type="text/css" href="css/orange.css" title="orange" media="screen" disabled="">
     <!--- END COLOR SCHEMES -->
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/Owl.Carousel.css" rel="stylesheet">
     <script src="js/jquery-1.11.1.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
