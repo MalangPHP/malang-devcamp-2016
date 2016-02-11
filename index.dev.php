@@ -620,7 +620,7 @@
 
                                         <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
                                             <span class="wrap-s">
-                                                <span class="time-s"><span>08<span>15</span></span></span>
+                                                <span class="time-s"><span>08<span>30</span></span></span>
                                                 <span class="content-s">
                                                     <span class="title-s">Materi 1: Pengenalan Konsep MVC (Model View Controller)</span>
                                                     <!--<span class="aut-s">by Michael Smith</span>-->
@@ -647,7 +647,7 @@
 
                                         <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
                                             <span class="wrap-s">
-                                                <span class="time-s"><span>08<span>45</span></span></span>
+                                                <span class="time-s"><span>09<span>30</span></span></span>
                                                 <span class="content-s">
                                                     <span class="title-s">Materi 2: Penjelasan tentang Controller</span>
                                                     <!--<span class="aut-s">by Michael Smith</span>-->
@@ -668,13 +668,30 @@
                             </div>
 
                             <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="schedule-ishoma">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed not" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-ishoma" aria-expanded="false" aria-controls="colapse-ishoma">
+
+                                            <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                                <span class="time-s"><span>11<span>30</span></span></span>
+                                                <span class="content-s">
+                                                    <span class="title-s">ISHOMA (Istirahat, Sholat, dan Makan)</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-schedule">
                                 <div class="panel-heading" role="tab" id="schedule-model">
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-model" aria-expanded="false" aria-controls="colapse-model">
 
-                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
                                             <span class="wrap-s">
-                                                <span class="time-s"><span>10<span>00</span></span></span>
+                                                <span class="time-s"><span>12<span>30</span></span></span>
                                                 <span class="content-s">
                                                     <span class="title-s">Materi 3: Penjelasan tentang Model</span>
                                                 </span>
@@ -694,15 +711,15 @@
                             </div>
 
                             <div class="panel panel-schedule">
-                                <div class="panel-heading" role="tab" id="schedule-ishoma">
+                                <div class="panel-heading" role="tab" id="schedule-isho">
                                     <h4 class="panel-title">
-                                        <a class="collapsed not" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-ishoma" aria-expanded="false" aria-controls="colapse-ishoma">
+                                        <a class="collapsed not" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-isho" aria-expanded="false" aria-controls="colapse-isho">
 
                                             <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
                                             <span class="wrap-s">
-                                                <span class="time-s"><span>11<span>15</span></span></span>
+                                                <span class="time-s"><span>14<span>00</span></span></span>
                                                 <span class="content-s">
-                                                    <span class="title-s">ISHOMA (Istirahat, Sholat, dan Makan)</span>
+                                                    <span class="title-s">ISHO (Istirahat dan Sholat)</span>
                                                 </span>
                                             </span>
                                         </a>
@@ -717,7 +734,7 @@
 
                                             <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
                                             <span class="wrap-s">
-                                                <span class="time-s"><span>12<span>30</span></span></span>
+                                                <span class="time-s"><span>15<span>00</span></span></span>
                                                 <span class="content-s">
                                                     <span class="title-s">Materi 4: Penjelasan tentang View</span>
                                                 </span>
@@ -737,58 +754,13 @@
                             </div>
 
                             <div class="panel panel-schedule">
-                                <div class="panel-heading" role="tab" id="schedule-prepare">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-prepare" aria-expanded="false" aria-controls="colapse-prepare">
-
-                                            <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
-                                            <span class="wrap-s">
-                                                <span class="time-s"><span>13<span>45</span></span></span>
-                                                <span class="content-s">
-                                                    <span class="title-s">Ready for Practice!</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="colapse-prepare" class="panel-collapse collapse" role="tabpanel" aria-labelledby="schedule-prepare">
-                                    <div class="panel-body">
-
-                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
-
-                                        &bullet; Panitia memberikan penjelasan tentang praktek yang akan dilaksanakan untuk seluruh peserta. <br>
-                                        &bullet; Panitia akan membagi peserta secara acak dengan anggota antara 3 - 4 orang per tim. <br>
-                                        &bullet; Panitia juga akan memberikan pembimbing untuk masing-masing tim dari pihak panitia.
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-schedule">
-                                <div class="panel-heading" role="tab" id="schedule-isho">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed not" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-isho" aria-expanded="false" aria-controls="colapse-isho">
-
-                                            <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
-                                            <span class="wrap-s">
-                                                <span class="time-s"><span>15<span>00</span></span></span>
-                                                <span class="content-s">
-                                                    <span class="title-s">ISHO (Istirahat dan Sholat)</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </h4>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-schedule">
                                 <div class="panel-heading" role="tab" id="schedule-practice">
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-practice" aria-expanded="false" aria-controls="colapse-practice">
 
                                             <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
                                             <span class="wrap-s">
-                                                <span class="time-s"><span>15<span>45</span></span></span>
+                                                <span class="time-s"><span>16<span>30</span></span></span>
                                                 <span class="content-s">
                                                     <span class="title-s">Challange!</span>
                                                 </span>
@@ -801,33 +773,8 @@
 
                                         <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
 
-                                        Membuat aplikasi berbasis web yang sederhana menggunakan konsep MVC.
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-schedule">
-                                <div class="panel-heading" role="tab" id="schedule-presentation">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-presentation" aria-expanded="false" aria-controls="colapse-presentation">
-
-                                            <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
-                                                <span class="wrap-s">
-                                                    <span class="time-s"><span>20<span>00</span></span></span>
-                                                    <span class="content-s">
-                                                        <span class="title-s">Present Your Work!</span>
-                                                    </span>
-                                                </span>
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="colapse-presentation" class="panel-collapse collapse" role="tabpanel" aria-labelledby="schedule-presentation">
-                                    <div class="panel-body">
-
-                                        <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
-
-                                        Masing-masing tim harus memperkenalkan aplikasi yang telah dibuat.
+                                        &bullet; Membuat aplikasi berbasis web yang sederhana menggunakan konsep MVC. <br>
+                                        &bullet; Masing-masing kelompok akan mempresentasikan aplikasi yang dibuat.
 
                                     </div>
                                 </div>
@@ -840,7 +787,7 @@
 
                                             <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
                                                 <span class="wrap-s">
-                                                    <span class="time-s"><span>22<span>00</span></span></span>
+                                                    <span class="time-s"><span>21<span>00</span></span></span>
                                                     <span class="content-s">
                                                         <span class="title-s">Burn Your Gadget!</span>
                                                     </span>
@@ -853,7 +800,7 @@
 
                                         <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
 
-                                        Acara bebas dimana peserta tidak boleh menggunakan gadgetnya sama sekali sampai besok pagi.
+                                        Acara bebas dimana peserta tidak boleh menggunakan gadgetnya sama sekali.
 
                                     </div>
                                 </div>
@@ -887,9 +834,9 @@
 
                                         <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
                                             <span class="wrap-s">
-                                                <span class="time-s"><span>09<span>00</span></span></span>
+                                                <span class="time-s"><span>08<span>00</span></span></span>
                                                 <span class="content-s">
-                                                    <span class="title-s">Outbound with the Crew!</span>
+                                                    <span class="title-s">Outbound!</span>
                                                 </span>
                                             </span>
                                         </a>
@@ -905,6 +852,23 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="panel panel-schedule">
+                                <div class="panel-heading" role="tab" id="schedule-closed">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-closed" aria-expanded="false" aria-controls="colapse-closed">
+
+                                        <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
+                                            <span class="wrap-s">
+                                                <span class="time-s"><span>13<span>30</span></span></span>
+                                                <span class="content-s">
+                                                    <span class="title-s">Penutupan Acara</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -916,71 +880,6 @@
         </section>
 
         <!-- ================= END SCHEDULE ================= -->
-
-        <!-- ================= TESTIMONIALS ================= -->
-
-        <!--<section id="testimonials" class="ev text-car part">-->
-
-
-                    <!--<div id="text-car" class="carousel carousel-text slide" data-ride="carousel">-->
-
-                      <!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
-                      <!--<div class="carousel-inner" role="listbox">-->
-                        <!--<div class="item active parallax">-->
-                            <!--<div class="cont">-->
-
-                            <!--&lt;!&ndash; ================= TESTIMONIALS DESC ================= &ndash;&gt;-->
-
-                                <!--<div class="text-a">-->
-
-                                <!--<p>"Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."</p>-->
-
-                                    <!--<h2> <strong>Vede Emanuel</strong> | Graphic Designer</h2>-->
-
-                                <!--</div>-->
-
-                            <!--</div>-->
-                          <!--</div>-->
-
-                          <!--<div class="item  parallax">-->
-                            <!--<div class="cont">-->
-
-                            <!--&lt;!&ndash; ================= TESTIMONIALS DESC ================= &ndash;&gt;-->
-
-                                <!--<div class="text-a">-->
-
-                                <!--<p>"Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."</p>-->
-
-                                    <!--<h2> <strong>Tufan Ovidiu</strong> | Front-End Developer</h2>-->
-
-                                <!--</div>-->
-
-                            <!--</div>-->
-                          <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="item">-->
-                            <!--<div class="cont">-->
-
-                            <!--&lt;!&ndash; ================= TESTIMONIALS DESC ================= &ndash;&gt;-->
-
-                                <!--<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>-->
-
-                            <!--</div>-->
-                        <!--</div>-->
-                      <!--</div>-->
-
-                      <!--&lt;!&ndash; Controls &ndash;&gt;-->
-                      <!--<a class="left carousel-control" href="#text-car" role="button" data-slide="prev">-->
-                        <!--<i class="fa fa-angle-left"></i>-->
-                      <!--</a>-->
-                      <!--<a class="right carousel-control" href="#text-car" role="button" data-slide="next">-->
-                        <!--<i class="fa fa-angle-right"></i>-->
-                      <!--</a>-->
- <!---->
-
-        <!--</section>-->
-
-        <!-- ================= END TESTIMONIALS ================= -->
 
         <!-- ================= F.A.Q. ================= -->
 
@@ -1254,239 +1153,6 @@
 
         <!-- ================= F.A.Q. ================= -->
 
-        <!-- ================= GALLERY ================= -->
-
-        <!--<section id="gallery" class="ev part carousel-part">-->
-
-            <!--<div class="container-fluid">-->
-
-            <!--<div class="content-part">-->
-
-                 <!--<div class="title">-->
-
-                    <!--&lt;!&ndash; ======================== F.A.Q. TITLE ========================= &ndash;&gt;-->
-
-                    <!--<h2>Event<strong> Gallery</strong></h2>-->
-
-                <!--</div>-->
-
-                <!--<ul class="nav nav-pills nav-justified">-->
-
-                    <!--<li class="active"><a data-toggle="tab" href="#sectionC">Photo</a></li>-->
-                    <!--<li><a data-toggle="tab" href="#sectionD">Video</a></li>-->
-
-                <!--</ul>-->
-
-                <!--<div class="tab-content">-->
-                        <!---->
-                    <!--<div id="sectionC" class="tab-pane fade in active">-->
-
-                        <!--<div id="carousel-center" class="carousel slide" data-ride="carousel" data-interval="false">-->
-                            <!--<div class="carousel-inner">-->
-                                <!--<div class="item active">-->
-                                <!--&lt;!&ndash; ======================== Image ========================= &ndash;&gt;-->
-                                    <!--<img src="images/slide-mid.jpg" alt="1.jpg" class="img-responsive">-->
-                                <!--</div>-->
-                                <!--<div class="item">-->
-                                <!--&lt;!&ndash; ======================== Image ========================= &ndash;&gt;-->
-                                    <!--<img src="images/slide-mid-2.jpg" alt="1.jpg" class="img-responsive">-->
-                                <!--</div>-->
-                                <!--<div class="item">-->
-                                <!--&lt;!&ndash; ======================== Image ========================= &ndash;&gt;-->
-                                    <!--<img src="images/slide-mid-3.jpg" alt="1.jpg" class="img-responsive">-->
-                                <!--</div>-->
-                                <!--<div class="item">-->
-                                <!--&lt;!&ndash; ======================== Image ========================= &ndash;&gt;-->
-                                    <!--<img src="images/slide-mid-4.jpg" alt="1.jpg" class="img-responsive">-->
-                                <!--</div>-->
-                                <!--<div class="item">-->
-                                <!--&lt;!&ndash; ======================== Image ========================= &ndash;&gt;-->
-                                    <!--<img src="images/slide-mid-5.jpg" alt="1.jpg" class="img-responsive">-->
-                                <!--</div>-->
-                                <!--<div class="item">-->
-                                <!--&lt;!&ndash; ======================== Image ========================= &ndash;&gt;-->
-                                    <!--<img src="images/slide-mid-6.jpg" alt="1.jpg" class="img-responsive">-->
-                                <!--</div>-->
-                                <!--<div class="item">-->
-                                <!--&lt;!&ndash; ======================== Image ========================= &ndash;&gt;-->
-                                    <!--<img src="images/slide-mid-7.jpg" alt="1.jpg" class="img-responsive">-->
-                                    <!--&lt;!&ndash; ======================== Caption ========================= &ndash;&gt;-->
-                                <!--</div>-->
-                                <!--<div class="item">-->
-                                <!--&lt;!&ndash; ======================== Image ========================= &ndash;&gt;-->
-                                    <!--<img src="images/slide-mid-8.jpg" alt="1.jpg" class="img-responsive">-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div> -->
-                        <!--<div class="clearfix">-->
-                            <!--<div id="thumbcarousel" class="thumbnails-carousel carousel slide" data-interval="false">-->
-                                <!--<div class="carousel-inner">-->
-                                    <!--<div class="item active">-->
-
-                                        <!--<div data-target="#carousel-center" data-slide-to="0" class="thumb">-->
-                                            <!--&lt;!&ndash; ======================== Thumb Image ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid.jpg" alt="1.jpg" class="img-responsive">-->
-                                            <!--&lt;!&ndash; ======================== Caption ========================= &ndash;&gt;-->
-                                            <!--<div class="caption">-->
-                                                <!--<p>Marketing and Design</p>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-
-                                        <!--<div data-target="#carousel-center" data-slide-to="1" class="thumb">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Image ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-2.jpg" alt="1.jpg" class="img-responsive">-->
-                                        <!--</div>-->
-
-                                        <!--<div data-target="#carousel-center" data-slide-to="2" class="thumb">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Image ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-3.jpg" alt="1.jpg" class="img-responsive">-->
-                                            <!--&lt;!&ndash; ======================== Caption ========================= &ndash;&gt;-->
-                                            <!--<div class="caption">-->
-                                                <!--<p>Marketing and Design</p>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-
-                                        <!--<div data-target="#carousel-center" data-slide-to="3" class="thumb">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Image ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-4.jpg" alt="1.jpg" class="img-responsive">-->
-                                        <!--</div>-->
-
-                                    <!--</div>&lt;!&ndash; /item &ndash;&gt;-->
-                                    <!--<div class="item">-->
-                                        <!--<div data-target="#carousel-center" data-slide-to="4" class="thumb">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Image ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-5.jpg" alt="1.jpg" class="img-responsive">-->
-                                        <!--</div>-->
-                                        <!--<div data-target="#carousel-center" data-slide-to="5" class="thumb">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Image ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-6.jpg" alt="1.jpg" class="img-responsive">  -->
-                                            <!--&lt;!&ndash; ======================== Caption ========================= &ndash;&gt;-->
-                                            <!--<div class="caption">-->
-                                                <!--<p>Marketing and Design</p>-->
-                                            <!--</div>               -->
-                                        <!--</div>-->
-                                        <!--<div data-target="#carousel-center" data-slide-to="6" class="thumb">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Image ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-7.jpg" alt="1.jpg" class="img-responsive">  -->
-                                        <!--</div>-->
-                                        <!--<div data-target="#carousel-center" data-slide-to="7" class="thumb">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Image ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-8.jpg" alt="1.jpg" class="img-responsive">  -->
-                                            <!--&lt;!&ndash; ======================== Caption ========================= &ndash;&gt;-->
-                                            <!--<div class="caption">-->
-                                                <!--<p>Marketing and Design</p>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
-
-                                <!--</div>-->
-
-                                <!--<a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">-->
-                                    <!--<i class="fa fa-angle-left"></i>-->
-                                <!--</a>-->
-                                <!--<a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">-->
-                                    <!--<i class="fa fa-angle-right"></i>-->
-                                <!--</a>-->
-                            <!--</div> &lt;!&ndash; /thumbcarousel &ndash;&gt;-->
-                        <!--</div>-->
-                    <!--</div>-->
-
-                    <!--<div id="sectionD" class="tab-pane fade in">-->
-
-                            <!--<div class=" text-center media-video">-->
-                                <!--<div class="video-wrapper">-->
-                                    <!--<iframe width="1090" height="535" src="http://www.youtube.com/embed/eIho2S0ZahI" allowfullscreen=""></iframe>-->
-                                 <!--</div>-->
-                            <!--</div>-->
-
-                        <!--<div class="clearfix">-->
-                            <!--<div id="thumbcarousel1" class="thumbnails-carousel carousel video-c slide" data-interval="false">-->
-                                <!--<div class="carousel-inner">-->
-                                    <!--<div class="item active">-->
-
-                                        <!--<div data-target="#carousel-video" data-slide-to="0" data-video-url="https://www.youtube.com/embed/URy4fN4sSqI" class="thumb play-video">-->
-                                            <!--&lt;!&ndash; ======================== Thumb Video ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-9.jpg" alt="1.jpg" class="img-responsive">-->
-                                            <!--&lt;!&ndash; ======================== Caption ========================= &ndash;&gt;-->
-                                            <!--<div class="caption">-->
-                                                <!--<p>Marketing and Design</p>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-
-                                        <!--<div data-target="#carousel-video" data-slide-to="1" data-video-url="https://www.youtube.com/embed/nFxWSTYHRQ4" class="thumb play-video">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Video ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-10.jpg" alt="1.jpg" class="img-responsive">-->
-                                        <!--</div>-->
-
-                                        <!--<div data-target="#carousel-video" data-slide-to="2" data-video-url="https://www.youtube.com/embed/IkGtWhUmbqM" class="thumb play-video">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Video ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-11.jpg" alt="1.jpg" class="img-responsive">-->
-                                            <!--&lt;!&ndash; ======================== Caption ========================= &ndash;&gt;-->
-                                            <!--<div class="caption">-->
-                                                <!--<p>Marketing and Design</p>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-
-                                        <!--<div data-target="#carousel-video" data-slide-to="3" data-video-url="https://www.youtube.com/embed/V8K_kDt0Ow8" class="thumb play-video">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Video ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-12.jpg" alt="1.jpg" class="img-responsive">-->
-                                        <!--</div>-->
-
-                                    <!--</div>&lt;!&ndash; /item &ndash;&gt;-->
-                                    <!--<div class="item">-->
-
-                                        <!--<div data-video-url="https://www.youtube.com/embed/URy4fN4sSqI" class="thumb play-video">-->
-                                            <!--&lt;!&ndash; ======================== Thumb Video ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-9.jpg" alt="1.jpg" class="img-responsive">-->
-                                            <!--&lt;!&ndash; ======================== Caption ========================= &ndash;&gt;-->
-                                            <!--<div class="caption">-->
-                                                <!--<p>Marketing and Design</p>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-
-                                        <!--<div data-video-url="https://www.youtube.com/embed/nFxWSTYHRQ4" class="thumb play-video">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Video ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-10.jpg" alt="1.jpg" class="img-responsive">-->
-                                        <!--</div>-->
-
-                                        <!--<div data-video-url="https://www.youtube.com/embed/IkGtWhUmbqM" class="thumb play-video">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Video ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-11.jpg" alt="1.jpg" class="img-responsive">-->
-                                            <!--&lt;!&ndash; ======================== Caption ========================= &ndash;&gt;-->
-                                            <!--<div class="caption">-->
-                                                <!--<p>Marketing and Design</p>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-
-                                        <!--<div data-video-url="https://www.youtube.com/embed/V8K_kDt0Ow8" class="thumb play-video">-->
-                                        <!--&lt;!&ndash; ======================== Thumb Video ========================= &ndash;&gt;-->
-                                            <!--<img src="images/slide-mid-12.jpg" alt="1.jpg" class="img-responsive">-->
-                                        <!--</div>-->
-
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<a class="left carousel-control" href="#thumbcarousel1" role="button" data-slide="prev">-->
-                                    <!--<i class="fa fa-angle-left"></i>-->
-                                <!--</a>-->
-                                <!--<a class="right carousel-control" href="#thumbcarousel1" role="button" data-slide="next">-->
-                                    <!--<i class="fa fa-angle-right"></i>-->
-                                <!--</a>-->
-                            <!--</div>-->
-                        <!--</div>-->
-
-                    <!--</div>-->
-
-                <!--</div>-->
-
-            <!--</div>-->
-
-            <!--</div>-->
-
-
-        <!--</section>-->
-
-        <!-- ================= END GALLERY ================= -->
-
         <!-- ================= SPONSORS ================= -->
 
         <section class="part conf-logo">
@@ -1555,7 +1221,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6">
 
                         <ul class="ticket-list active">
-                            <li class="title">Early Bid</li>
+                            <li class="title">Early Bird</li>
                             <li class="costs"><em>Rp.</em>180,000 <sup>/ orang</sup></li>
                             <li class="active"><strong>15 pendaftar pertama</strong></li>
                             <li class="active">Kamar Tidur</li>
