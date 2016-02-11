@@ -58,8 +58,8 @@
                                     <div class="inner">
                                         <div class="carousel-caption">
                                             <h2 class="fadeInLeft animated">Welcome To</h2>
-                                            <h1 class="fadeInRight animated">EVENTIQUE</h1>
-                                            <h3 class="fadeInLeft animated">Romania, Hotel Rin</h3>
+                                            <h1 class="fadeInRight animated">Malang DevCamp 2016</h1>
+                                            <h3 class="fadeInLeft animated">Malang, Jawa Timur</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -76,47 +76,47 @@
 
             <!-- ================================================== SLIDER ITEM ================================================== -->
 
-            <div class="item">
-
-                <div class="not-fullscreen background parallax slider2" data-diff="100">
-                    <div class="content-a">
-
-                            <!-- ================================================== CAPTION ================================================== -->
-
-                            <div class="outer">
-                                <div class="middle">
-                                    <div class="inner">
-                                        <div class="container">
-                                            <div class="carousel-caption">
-                                                <h2 class="bounceInDown animated">The best event to</h2>
-                                                <h1 class="fadeIn animated">Discover. Create. Inspire</h1>
-                                                <p class="cap">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                                                <br>laoreet dolore magna aliquam erat volutpat.</p>
-                                                <a class="btn btn-lg btn-primary" href="#" role="button">Reserve your seat</a>
-                                                <a class="btn btn-lg btn-naked" href="#" role="button">Reserve your seat</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- ================================================== END CAPTION ================================================== -->
-
-                    </div>
-                </div>
-
-            </div>
+<!--            <div class="item">-->
+<!---->
+<!--                <div class="not-fullscreen background parallax slider2" data-diff="100">-->
+<!--                    <div class="content-a">-->
+<!---->
+<!--                            <!-- ================================================== CAPTION ================================================== -->-->
+<!---->
+<!--                            <div class="outer">-->
+<!--                                <div class="middle">-->
+<!--                                    <div class="inner">-->
+<!--                                        <div class="container">-->
+<!--                                            <div class="carousel-caption">-->
+<!--                                                <h2 class="bounceInDown animated">The best event to</h2>-->
+<!--                                                <h1 class="fadeIn animated">Discover. Create. Inspire</h1>-->
+<!--                                                <p class="cap">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut -->
+<!--                                                <br>laoreet dolore magna aliquam erat volutpat.</p>-->
+<!--                                                <a class="btn btn-lg btn-primary" href="#" role="button">Reserve your seat</a>-->
+<!--                                                <a class="btn btn-lg btn-naked" href="#" role="button">Reserve your seat</a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                            <!-- ================================================== END CAPTION ================================================== -->-->
+<!---->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
         </div>
 
 
         <!-- ================================================== END SLIDER ITEM ================================================== -->
 
-        <a class="left carousel-control" href="#top-carousel" role="button" data-slide="prev">
-            <i aria-hidden="true" class="fa fa-angle-left"></i>
-        </a>
-        <a class="right carousel-control" href="#top-carousel" role="button" data-slide="next">
-            <i aria-hidden="true" class="fa fa-angle-right"></i>
-        </a>
+<!--        <a class="left carousel-control" href="#top-carousel" role="button" data-slide="prev">-->
+<!--            <i aria-hidden="true" class="fa fa-angle-left"></i>-->
+<!--        </a>-->
+<!--        <a class="right carousel-control" href="#top-carousel" role="button" data-slide="next">-->
+<!--            <i aria-hidden="true" class="fa fa-angle-right"></i>-->
+<!--        </a>-->
 
     </div>
 
