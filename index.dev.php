@@ -238,7 +238,7 @@
                                                 <!-- ================= EVENT ICON DESCRIPTION ================= -->
 
                                                 <h3>Malang</h3>
-                                                <h4>Petungsewu Wildlife Education Center (P-WEC)</h4>
+                                                <h4>Petungsewu Wildlife Education Center <br> (P-WEC)</h4>
 
                                             </div>
                                         </div>
