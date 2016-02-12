@@ -57,7 +57,7 @@
                                 <div class="middle">
                                     <div class="inner">
                                         <div class="carousel-caption">
-                                            <img src="assets-soon/img/logo.png" alt="" style="width: 600px;">
+                                            <img src="assets-soon/img/logo.png" alt="Malang DevCamp 2016 logo" style="width: 600px;">
                                         </div>
                                     </div>
                                 </div>
