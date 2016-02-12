@@ -37,10 +37,10 @@
 
         <!-- ================================================== INDICATORS================================================== -->
 
-        <ol class="carousel-indicators">
-            <li data-target="#top-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#top-carousel" data-slide-to="1" class=""></li>
-        </ol>
+<!--        <ol class="carousel-indicators">-->
+<!--            <li data-target="#top-carousel" data-slide-to="0" class="active"></li>-->
+<!--            <li data-target="#top-carousel" data-slide-to="1" class=""></li>-->
+<!--        </ol>-->
 
         <!-- ================================================== SLIDER ITEM ================================================== -->
 
