@@ -668,23 +668,6 @@
                             </div>
 
                             <div class="panel panel-schedule">
-                                <div class="panel-heading" role="tab" id="schedule-ishoma">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed not" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-ishoma" aria-expanded="false" aria-controls="colapse-ishoma">
-
-                                            <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
-                                            <span class="wrap-s">
-                                                <span class="time-s"><span>11<span>30</span></span></span>
-                                                <span class="content-s">
-                                                    <span class="title-s">ISHOMA (Istirahat, Sholat, dan Makan)</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </h4>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-schedule">
                                 <div class="panel-heading" role="tab" id="schedule-model">
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-model" aria-expanded="false" aria-controls="colapse-model">
@@ -707,23 +690,6 @@
                                         Penjelasan tentang konsep model dan tanya jawab dengan pemateri 3.
 
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-schedule">
-                                <div class="panel-heading" role="tab" id="schedule-isho">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed not" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse-isho" aria-expanded="false" aria-controls="colapse-isho">
-
-                                            <!-- ========================= SCHEDULE ACCORDION BLOCK TITLE ==== -->
-                                            <span class="wrap-s">
-                                                <span class="time-s"><span>14<span>00</span></span></span>
-                                                <span class="content-s">
-                                                    <span class="title-s">ISHO (Istirahat dan Sholat)</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </h4>
                                 </div>
                             </div>
 
@@ -773,6 +739,9 @@
 
                                         <!-- =========================== SCHEDULE ACCORDION BLOCK DESC ========================== -->
 
+                                        &bullet; Panitia akan memberikan penjelasan tentang praktek yang akan dilaksanakan untuk seluruh peserta. <br>
+                                        &bullet; Panitia akan membagi peserta secara acak dengan anggota antara 3 - 4 orang per tim. <br>
+                                        &bullet; Panitia juga akan memberikan pembimbing untuk masing-masing tim dari pihak panitia. <br>
                                         &bullet; Membuat aplikasi berbasis web yang sederhana menggunakan konsep MVC. <br>
                                         &bullet; Masing-masing kelompok akan mempresentasikan aplikasi yang dibuat.
 
