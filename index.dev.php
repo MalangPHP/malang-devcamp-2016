@@ -1305,7 +1305,7 @@
     <!-- ================= FOOTER WATERMARK ================= -->
 
     <footer class="footer">
-        <p>Organized by <a href="#" target="_blank"><strong>Malang PHP User Group</strong></a> 2016 </p>
+        <p>Organized by <a href="http://malangphp.org" target="_blank"><strong>Malang PHP User Group</strong></a> 2016 </p>
     </footer>
 
     <!-- ================= END FOOTER WATERMARK ================= -->
