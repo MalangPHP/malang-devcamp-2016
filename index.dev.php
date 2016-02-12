@@ -1305,7 +1305,7 @@
     <!-- ================= FOOTER WATERMARK ================= -->
 
     <footer class="footer">
-        <p>Copyright of <a href="#"><strong>EVENTIQUE</strong></a> 2016 </p>
+        <p>Organized by <a href="#" target="_blank"><strong>Malang PHP User Group</strong></a> 2016 </p>
     </footer>
 
     <!-- ================= END FOOTER WATERMARK ================= -->
