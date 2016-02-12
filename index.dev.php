@@ -57,9 +57,7 @@
                                 <div class="middle">
                                     <div class="inner">
                                         <div class="carousel-caption">
-                                            <h2 class="fadeInLeft animated">Welcome To</h2>
-                                            <h1 class="fadeInRight animated">Malang DevCamp 2016</h1>
-                                            <h3 class="fadeInLeft animated">Malang, Jawa Timur</h3>
+                                            <img src="assets-soon/img/logo.png" alt="" style="width: 600px;">
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +136,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="#">
-                                <img src="images/line-full-color.png" alt="Eventique" title="Eventique">
+                                <img src="images/line-full-color.png" alt="Malang DevCamp 2016" title="Malang DevCamp 2016">
                             </a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse" data-scroll-header>
@@ -161,6 +159,9 @@
                                 <li>
                                     <a data-scroll data-options='{ "easing": "linear" }' href="#location">Lokasi</a>
                                 </li>
+<!--                                <li>-->
+<!--                                    <a data-scroll data-options='{ "easing": "linear" }' href="#ticket">Harga</a>-->
+<!--                                </li>-->
                             </ul>
                         </div>
                     </div>
@@ -887,7 +888,7 @@
 
                                         <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
 
-                                          How do I get tickets?
+                                          Bagaimana cara membeli tiket?
 
                                         </a>
                                   </h4>
@@ -897,61 +898,7 @@
 
                                         <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
 
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                                    
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
-
-                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
-
-                            <div class="panel panel-event">
-                                <div class="panel-heading" role="tab" id="headingTwoA">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapstwoA" aria-expanded="false" aria-controls="colapstwoA">
-
-                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
-
-                                          Where is the event located?
-
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="colapstwoA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwoA">
-                                    <div class="panel-body">
-
-                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
-
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                                    
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
-
-                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
-
-                            <div class="panel panel-event">
-                                <div class="panel-heading" role="tab" id="headingThreeA">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsthreeA" aria-expanded="false" aria-controls="colapsthreeA">
-
-                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
-
-                                          Are we allowed with drinks?
-
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="colapsthreeA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThreeA">
-                                    <div class="panel-body">
-
-                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
-
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                        Anda bisa membeli ticket dengan mehubungi kontak person yang berada di halaman kontak via SMS, Whatsapp, atau email.
                                     
                                     </div>
                                 </div>
@@ -966,9 +913,9 @@
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsfourA" aria-expanded="false" aria-controls="colapsfourA">
 
-                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+                                            <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
 
-                                          Can I bring a friend?
+                                            Apakah saya bisa mendapat diskon ticket?
 
                                         </a>
                                     </h4>
@@ -978,7 +925,62 @@
 
                                         <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
 
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                        Tentu! Untuk 15 orang pendaftar pertama harga tiket akan menjadi Rp. 180.000 / orang.
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingSevenA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#colapssevenA" aria-expanded="false" aria-controls="colapssevenA">
+
+                                            <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                            Saya pembeli ke 16, apakan masih bisa mendapat diskon?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapssevenA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSevenA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Ya tentu masih bisa! Jika anda mengajak minimal 2 orang teman Anda dan Anda mendaftar secara kolektif, masing masing tiket harganya akan menjadi Rp. 200.000 / orang.
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingSixA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#colapssixA" aria-expanded="false" aria-controls="colapssixA">
+
+                                            <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                            Apa syarat untuk mengikuti kegiatan ini?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapssixA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Syarat utama adalah niat dan passion Anda didunia programming! Dan tentunya laptop untuk kegiatan workshop. <br>
+                                        Dan kami sarankan untuk membawa sepatu olahraga untuk kegiatan outbound.
 
                                     </div>
                                 </div>
@@ -1001,13 +1003,67 @@
                             <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
 
                             <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingTwoA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapstwoA" aria-expanded="false" aria-controls="colapstwoA">
+
+                                            <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                            Dimana event ini diadakan?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapstwoA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwoA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Event ini diadakan di P-WEC - Jl. Margasatwa 1, Desa Petungsewu, Kec. Dau, Jawa Timur, Indonesia
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="headingThreeA">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapsthreeA" aria-expanded="false" aria-controls="colapsthreeA">
+
+                                            <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                            Saya tidak tahu lokasinya, apa yang harus saya lakukan?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="colapsthreeA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThreeA">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Pickup point bagi yang tidak tahu lokasi P-WEC bisa langsung menuju ke DILO Malang - Jl. Jenderal Basuki Rahmat No.11 A, Klojen, Kota Malang, Jawa Timur 65119, Indonesia. Panitia akan standby dilokasi tersebut dari jam 06.00 - 07.30.
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
                                 <div class="panel-heading" role="tab" id="headingFiveA">
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#colapsfiveA" aria-expanded="false" aria-controls="colapsfiveA">
 
                                         <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
 
-                                          How do I get tickets?
+                                            Saya ingin menjadi donatur / sponsor, apa yang harus saya lakukan?
 
                                         </a>
                                     </h4>
@@ -1017,61 +1073,7 @@
 
                                         <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
 
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                                    
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
-
-                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
-
-                            <div class="panel panel-event">
-                                <div class="panel-heading" role="tab" id="headingSixA">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#colapssixA" aria-expanded="false" aria-controls="colapssixA">
-
-                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
-
-                                          Where is the event located?
-
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="colapssixA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixA">
-                                    <div class="panel-body">
-
-                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
-
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                                    
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
-
-                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
-
-                            <div class="panel panel-event">
-                                <div class="panel-heading" role="tab" id="headingSevenA">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#colapssevenA" aria-expanded="false" aria-controls="colapssevenA">
-
-                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
-
-                                          Are we allowed with drinks?
-
-                                        </a>
-                                  </h4>
-                                </div>
-                                <div id="colapssevenA" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSevenA">
-                                    <div class="panel-body">
-
-                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
-
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                        Anda dapat menghubungi kami via email contact[at]malangphp.org
                                     
                                     </div>
                                 </div>
@@ -1088,7 +1090,7 @@
 
                                         <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
 
-                                          Can I bring a friend?
+                                          Apa yang terjadi jika kuota peserta telah terpenuhi?
 
                                         </a>
                                     </h4>
@@ -1098,7 +1100,7 @@
 
                                         <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
 
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                        Mohon maaf, kami hanya menerima 40 peserta saja untuk acara ini. Semoga kami bisa mengadakan acara seperti ini lagi di masa yang akan datang!
 
                                     </div>
                                 </div>
@@ -1130,20 +1132,16 @@
 
                 <h2> Sponsor Logos </h2> <!-- = Title just for SEO = -->
           
-            <div id="event-slider">
+                <div id="event-slider">
 
-            <!-- ================= SPONSORS LOGOS ================= -->
+                <!-- ================= SPONSORS LOGOS ================= -->
 
-              <img src="images/logo-conf.jpg" title="Conference" alt="conference" />
-              <img src="images/logo-conf-2.jpg" title="Conference" alt="conference" />
-              <img src="images/logo-conf-3.jpg" title="Conference" alt="conference" />
-              <img src="images/logo-conf-4.jpg" title="Conference" alt="conference" />
-              <img src="images/logo-conf.jpg" title="Conference" alt="conference" />
-              <img src="images/logo-conf-2.jpg" title="Conference" alt="conference" />
-              <img src="images/logo-conf-3.jpg" title="Conference" alt="conference" />
-              <img src="images/logo-conf-4.jpg" title="Conference" alt="conference" />
-             
-            </div>
+                  <img src="images/line-full-color.png" title="DevCamp" alt="devcamp 2016" />
+                  <img src="images/line-full-color.png" title="DevCamp" alt="devcamp 2016" />
+                  <img src="images/line-full-color.png" title="DevCamp" alt="devcamp 2016" />
+                  <img src="images/line-full-color.png" title="DevCamp" alt="devcamp 2016" />
+
+                </div>
             </div>
 
         </section>
@@ -1168,7 +1166,7 @@
 
         <!-- ================= TICKETS ================= -->
 
-        <section class="part ticket">
+        <section class="part ticket" id="ticket">
 
             <div class="container-fluid">
 
@@ -1305,7 +1303,7 @@
     <!-- ================= FOOTER WATERMARK ================= -->
 
     <footer class="footer">
-        <p>Organized by <a href="http://malangphp.org" target="_blank"><strong>Malang PHP User Group</strong></a> 2016 </p>
+        <p>Organized by <a href="#"><strong>Malang PHP User Group</strong></a> 2016 </p>
     </footer>
 
     <!-- ================= END FOOTER WATERMARK ================= -->
@@ -1324,6 +1322,28 @@
     <script src="js/fancyselect.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/_main.js"></script>
+    <script>
+        function initialize() {
+            var myLating = new google.maps.LatLng(-7.9521422, 112.5432265);
+            var mapOptions = {
+                zoom: 20,
+                center: myLating,
+                //zoomControl: false,
+                //scaleControl: false,
+                scrollwheel: false,
+                //disableDoubleClickZoom: true
+            }
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myLating,
+                map: map,
+            });
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
 
 </body>
 </html>
