@@ -10,6 +10,13 @@
 
     <title>Malang DevCamp 2016 - Back to Native</title>
 
+    <meta name="author" content="http://malangdevcamp2016.malangphp.org"/>
+    <meta name="description" content="Malang Dev Camp 2016 adalah sebuah acara yang dikemas dalam suasana camp yang berlangsung selama 2 hari 1 malam. Dalam acara ini, para web developer khususnya para developer PHP akan berkumpul untuk mendiskusikan berbagai macam hal seputar web development. Selain itu acara ini juga juga dikemas dengan kegiatan outbound guna meningkatkan solidaritas antar developer."/>
+    <meta property="og:url" content="http://malangdevcamp2016.malangphp.org"/>
+    <meta property="og:title" content="Malang DevCamp 2016"/>
+    <meta property="og:description" content="Malang Dev Camp 2016 adalah sebuah acara yang dikemas dalam suasana camp yang berlangsung selama 2 hari 1 malam. Dalam acara ini, para web developer khususnya para developer PHP akan berkumpul untuk mendiskusikan berbagai macam hal seputar web development. Selain itu acara ini juga juga dikemas dengan kegiatan outbound guna meningkatkan solidaritas antar developer."/>
+    <meta property="og:image" content="https://dl.dropboxusercontent.com/s/k5scf8jgsz8xfzn/Facebook-Meta-Image.jpg?dl=0"/>
+
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
