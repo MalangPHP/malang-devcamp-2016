@@ -147,11 +147,11 @@ MISC
 }
 
 .slider1 {
-	background-image:url(../images/kampung.jpg);
+	background-image:url(../images/hero/hero-2.jpg);
 }
 
 .slider2 {
-	background-image:url(../images/malang1.jpg);
+	/*background-image:url(../images/malang1.jpg);*/
 }
 
 .buttons {
@@ -1396,6 +1396,7 @@ FOOTER
 
 .background {
 	background-repeat: no-repeat;
+    background-size: cover;
 	background-position: 50% 50%;
 }
 /*=======================
@@ -1851,4 +1852,10 @@ a.settings_link {
 }
 .colors ul li a.color_green {
     background-color: #52C824;
+}
+
+@media screen and (max-width: 641px) {
+    .logo {
+        width: 100% !important;
+    }
 }
