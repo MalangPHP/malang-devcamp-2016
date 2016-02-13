@@ -994,18 +994,6 @@
 
                             <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
 
-                        </div>
-
-                        <!-- ================= END F.A.Q. ACCORDION BLOCKS ================= -->
-
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-
-                        <!-- ================= END F.A.Q. ACCORDION BLOCKS ================= -->
-
-                        <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
-
                             <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
 
                             <div class="panel panel-event">
@@ -1032,6 +1020,23 @@
                             </div>
 
                             <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+
+                        </div>
+
+
+
+                        <!-- ================= END F.A.Q. ACCORDION BLOCKS ================= -->
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+
+                        <!-- ================= END F.A.Q. ACCORDION BLOCKS ================= -->
+
+                        <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+
+                            
 
                             <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
 
@@ -1113,6 +1118,33 @@
                             </div>
 
                             <!-- ================= END F.A.Q. ACCORDION BLOCK ================= -->
+
+
+                            <!-- ================= F.A.Q. ACCORDION BLOCK ================= -->
+
+                            <div class="panel panel-event">
+                                <div class="panel-heading" role="tab" id="caraMembayar">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#caraMembayarCollapse" aria-expanded="false" aria-controls="colapseight">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK TITLE ================= -->
+
+                                          Bagaimana cara membayar?
+
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="caraMembayarCollapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="caraMembayar">
+                                    <div class="panel-body">
+
+                                        <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
+
+                                        Silahkan transfer ke 315-077-2906 a.n. Reyhan Sofian Haqqi (BCA)
+
+
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
 
