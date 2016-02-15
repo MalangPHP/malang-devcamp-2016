@@ -1209,7 +1209,7 @@
                     <div class="content-part">
                             <div class="title">
 
-                        <!-- ================= TICKETS TITLE ================= -->
+                            <!-- ================= TICKETS TITLE ================= -->
 
                                 <h2>Harga <strong>Tiket</strong></h2>
 
