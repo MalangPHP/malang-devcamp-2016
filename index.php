@@ -1173,10 +1173,9 @@
 
                 <!-- ================= SPONSORS LOGOS ================= -->
 
-                  <img src="images/line-full-color.png" title="DevCamp" alt="devcamp 2016" />
-                  <img src="images/line-full-color.png" title="DevCamp" alt="devcamp 2016" />
-                  <img src="images/line-full-color.png" title="DevCamp" alt="devcamp 2016" />
-                  <img src="images/line-full-color.png" title="DevCamp" alt="devcamp 2016" />
+                  <img src="images/dilo.jpg" title="Dilo" alt="Dilo" />
+                  <img src="images/malangphp.jpg" title="DevCamp" alt="devcamp 2016" />
+                  <img src="images/square-full-color.png" title="DevCamp" alt="devcamp 2016" />
 
                 </div>
             </div>
