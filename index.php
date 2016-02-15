@@ -1194,7 +1194,7 @@
             <!-- ================= GOOGLE MAPS COORDINATES ================= -->
 
             <div id="map" class="map-canvas"> </div>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbTYczntXnux1N_HyvmNBnmEKaMRF4_ow" async defer></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbTYczntXnux1N_HyvmNBnmEKaMRF4_ow" async></script>
 
         </section>
 
