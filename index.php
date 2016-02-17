@@ -784,7 +784,6 @@
                         </div>
 
                         <div id="sectionB" role="tablist" class="tab-pane fade in">
-
                             <div class="panel panel-schedule">
                                 <div class="panel-heading" role="tab" id="schedule-exercise">
                                     <h4 class="panel-title">
