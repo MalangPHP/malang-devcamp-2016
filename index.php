@@ -1138,7 +1138,7 @@
 
                                         <!-- ================= F.A.Q. ACCORDION BLOCK DESC ================= -->
 
-                                        Silahkan transfer ke 315-077-2906 a.n. Reyhan Sofian Haqqi (BCA)
+                                        Silahkan transfer ke 315-077-2906 a.n. Reyhan Sofian Haqqi (BCA) atau bisa cash melalui DILO Malang
 
 
                                     </div>
