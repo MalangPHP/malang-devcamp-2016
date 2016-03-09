@@ -1859,3 +1859,7 @@ a.settings_link {
         width: 100% !important;
     }
 }
+
+#event-slider > div.owl-controls.clickable > div.owl-buttons > div.owl-prev, #event-slider > div.owl-controls.clickable > div.owl-buttons > div.owl-next {
+	padding-top: 15px !important;
+}

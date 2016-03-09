@@ -1172,11 +1172,20 @@
 
                 <!-- ================= SPONSORS LOGOS ================= -->
 
-                    <img src="images/dilo.jpg" title="Dilo" alt="Dilo" />
-                    <img src="images/malangphp.jpg" title="Malang PHP User Group" alt="Malang PHP User Group" />
-                    <img src="images/codepolitan-small.png" title="Codepolitan" alt="codepolitan" style="padding-top: 30px;"/>
+                    <img src="images/dilo.jpg" title="Dilo" alt="Dilo" style="padding-top: 5px;" />
+                    <img src="images/mdc.jpg" title="Malang Digital Core" alt="Malang Digital Core" style="width: 105px !important; height: 105px !important;"/>
+                    <img src="images/ubig.png" title="UBig" alt="Ubig" style="padding-top: 30px;" />
+                    <img src="images/heasoft.png" title="Heasoft" alt="Heasoft" style="padding-top: 10px;" />
+                    <img src="images/malangphp.jpg" title="Malang PHP User Group" alt="Malang PHP User Group" style="padding-top: 10px;" />
+                    <img src="images/andromedia.png" title="Andromedia" alt="Andromedia" style="padding-top: 5px;" />
+                    <img src="images/codepolitan-small.png" title="Codepolitan" alt="codepolitan" style="padding-top: 25px;"/>
                     <img src="images/EM.png" title="Event Malang" alt="event malang" style="padding-top: 30px;"/>
                     <img src="images/info-ub-large.jpg" title="Info UB" alt="info UB" style="width: 120px !important; height: 108px !important;" />
+                    <img src="images/pwec.jpg" title="PWEC" alt="PWEC" style="width: 105px !important; height: 105px !important;" />
+                    <img src="images/acara-apa.png" title="AcaraApa" alt="AcaraApa" style="padding-top: 35px;" />
+                    <img src="images/display.png" title="Display" alt="Display" style="padding-top: 10px;" />
+                    <img src="images/edunews.jpg" title="Edunews" alt="Edunews" style="height: 115px !important; width: 78px !important;" />
+                    <img src="images/itv.png" title="iTV" alt="iTV" />
 
                 </div>
             </div>
