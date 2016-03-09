@@ -1200,7 +1200,6 @@
 
             <h2> Event Map </h2> <!-- = Title just for SEO = -->
 
-
             <!-- ================= GOOGLE MAPS COORDINATES ================= -->
 
             <div id="map" class="map-canvas"> </div>
