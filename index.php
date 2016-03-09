@@ -734,7 +734,7 @@
                                             <span class="wrap-s">
                                                 <span class="time-s"><span>16<span>30</span></span></span>
                                                 <span class="content-s">
-                                                    <span class="title-s">Challange!</span>
+                                                    <span class="title-s">Challenge!</span>
                                                 </span>
                                             </span>
                                         </a>
