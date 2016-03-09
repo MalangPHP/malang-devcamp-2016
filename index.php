@@ -1172,9 +1172,11 @@
 
                 <!-- ================= SPONSORS LOGOS ================= -->
 
-                  <img src="images/dilo.jpg" title="Dilo" alt="Dilo" />
-                  <img src="images/malangphp.jpg" title="DevCamp" alt="devcamp 2016" />
-                  <img src="images/square-full-color.png" title="DevCamp" alt="devcamp 2016" />
+                    <img src="images/dilo.jpg" title="Dilo" alt="Dilo" />
+                    <img src="images/malangphp.jpg" title="Malang PHP User Group" alt="Malang PHP User Group" />
+                    <img src="images/codepolitan-small.png" title="Codepolitan" alt="codepolitan" style="padding-top: 30px;"/>
+                    <img src="images/EM.png" title="Event Malang" alt="event malang" style="padding-top: 30px;"/>
+                    <img src="images/info-ub-large.jpg" title="Info UB" alt="info UB" style="width: 120px !important; height: 108px !important;" />
 
                 </div>
             </div>
@@ -1222,7 +1224,7 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-6">
 
-                        <ul class="ticket-list active">
+                        <ul class="ticket-list">
                             <li class="title">Early Bird</li>
                             <li class="costs"><em>Rp.</em>180,000 <sup>/ orang</sup></li>
                             <li class="active"><strong>15 pendaftar pertama</strong></li>
