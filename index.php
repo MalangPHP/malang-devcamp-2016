@@ -1177,6 +1177,7 @@
                     <img src="images/ubig.png" title="UBig" alt="Ubig" style="padding-top: 30px;" />
                     <img src="images/andromedia.png" title="Andromedia" alt="Andromedia" style="padding-top: 5px;" />
                     <img src="images/heasoft.png" title="Heasoft" alt="Heasoft" style="padding-top: 10px;" />
+                    <img src="images/telunjuk.png" title="Telunjuk" alt="Telunjuk" style="padding-top: 20px;" />
                     <img src="images/malangphp.jpg" title="Malang PHP User Group" alt="Malang PHP User Group" style="padding-top: 10px;" />
                     <img src="images/codepolitan-small.png" title="Codepolitan" alt="codepolitan" style="padding-top: 25px;"/>
                     <img src="images/EM.png" title="Event Malang" alt="event malang" style="padding-top: 30px;"/>
